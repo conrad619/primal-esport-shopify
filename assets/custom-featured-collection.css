@@ -53,7 +53,7 @@
   position: absolute;
   transform: rotate(90deg);
   transform-origin: bottom left;
-  width: 488px;
+  width: 100%;
   top: 29px;
   height: 41px;
   left: 11px;
