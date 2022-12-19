@@ -119,3 +119,6 @@
   background: rgba(var(--color-base-text));
   padding: 10px 60px;
 }
+.swiper-nav-view-container{
+  display:flex;
+}
