@@ -78,6 +78,7 @@
       "type": "custom-featured-collection",
       "settings": {
         "title": "Featured collection",
+        "background_image": "shopify:\/\/shop_images\/bg.png",
         "collection": "primal-unisex",
         "products_to_show": 12,
         "show_view_all": true,
