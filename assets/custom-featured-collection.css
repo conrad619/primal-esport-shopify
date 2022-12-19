@@ -23,7 +23,7 @@
   left: 11px;
 }
 .swiper-slide-title{
-  font-size: 30px;
+  font-size: 50px;
   color: #00000080;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
@@ -31,7 +31,9 @@
   padding: 0;
   width: 575px;
   transform-origin: bottom left;
-  transform: translate(0px,calc(-100% + 41px));
+  transform: translateY(calc(-100% + 41px));
+  font-weight: 700;
+  font-family: "Montserrat";
 }
 .swiper-slide-price-container{
   position:absolute;
