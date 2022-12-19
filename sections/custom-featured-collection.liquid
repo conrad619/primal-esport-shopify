@@ -69,26 +69,26 @@ button-->
       {%- endfor -%}
     </div>
 
-    <div>
-    <!-- If we need navigation buttons -->
-    <div class="swiper-navigation-buttons">
-      <div class="swiper-custom-button-prev">
-        <img src="https://cdn.shopify.com/s/files/1/0662/0571/2618/files/fill-arrow-right.svg?v=1671484195" class="arrow-enabled" style="display:none;">
-        <img src="https://cdn.shopify.com/s/files/1/0662/0571/2618/files/outline-arrow-right.svg?v=1671484195" class="arrow-disabled" style="display:block">
+    <div class="swiper-nav-view-container">
+      <!-- If we need navigation buttons -->
+      <div class="swiper-navigation-buttons">
+        <div class="swiper-custom-button-prev">
+          <img src="https://cdn.shopify.com/s/files/1/0662/0571/2618/files/fill-arrow-right.svg?v=1671484195" class="arrow-enabled" style="display:none;">
+          <img src="https://cdn.shopify.com/s/files/1/0662/0571/2618/files/outline-arrow-right.svg?v=1671484195" class="arrow-disabled" style="display:block">
+        </div>
+        <div class="swiper-custom-button-next">
+          <img src="https://cdn.shopify.com/s/files/1/0662/0571/2618/files/fill-arrow-right.svg?v=1671484195" class="arrow-enabled">
+          <img src="https://cdn.shopify.com/s/files/1/0662/0571/2618/files/outline-arrow-right.svg?v=1671484195" class="arrow-disabled">
+        </div>
       </div>
-      <div class="swiper-custom-button-next">
-        <img src="https://cdn.shopify.com/s/files/1/0662/0571/2618/files/fill-arrow-right.svg?v=1671484195" class="arrow-enabled">
-        <img src="https://cdn.shopify.com/s/files/1/0662/0571/2618/files/outline-arrow-right.svg?v=1671484195" class="arrow-disabled">
-      </div>
-    </div>
-      
-    {%- if section.settings.show_view_all and more_in_collection -%}
-      <div class="swiper-view-all">
-        <a href="{{ section.settings.collection.url }}" class="swiper-view-all-text">
-          {{ 'sections.featured_collection.view_all' | t }}
-        </a>
-      </div>
-    {%- endif -%}
+        
+      {%- if section.settings.show_view_all and more_in_collection -%}
+        <div class="swiper-view-all">
+          <a href="{{ section.settings.collection.url }}" class="swiper-view-all-text">
+            {{ 'sections.featured_collection.view_all' | t }}
+          </a>
+        </div>
+      {%- endif -%}
     </div>
 
   </div>
