@@ -21,8 +21,12 @@
   padding: 0;
 }
 .custom-featured-collection-title.text-bg{
-  margin-right:-53px;
-  margin-top:-53px;
+  margin-left: -50px;
+  margin-top: -49px;
+  position: absolute;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
 }
 .swiper {
   width: calc(100% - 350px);
