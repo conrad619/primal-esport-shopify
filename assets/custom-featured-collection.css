@@ -118,6 +118,7 @@
   text-transform: uppercase;
   background: rgba(var(--color-base-text));
   padding: 10px 60px;
+  border:1px solid #fff;
 }
 .swiper-nav-view-container{
   display:flex;
