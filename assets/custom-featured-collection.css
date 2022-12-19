@@ -106,3 +106,16 @@
   transform:rotate(180deg);
   display:none;
 }
+.swiper-view-all{
+  padding-top: 35px;
+  padding-left: 30px;
+}
+.swiper-view-all-text{
+  color: #fff;
+  text-decoration: none;
+  font-family: "Oswald";
+  font-size: 32px;
+  text-transform: uppercase;
+  background: rgba(var(--color-base-text));
+  padding: 10px 60px;
+}
