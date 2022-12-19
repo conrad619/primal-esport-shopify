@@ -55,7 +55,7 @@ button-->
   endif
 -%}
 
-<div class="color-{{ section.settings.color_scheme }}">
+<div class="custom-featured-collection-container color-{{ section.settings.color_scheme }}" style="background-image:url({{ section.settings.background_image | image_url }})">
   <div class="section-{{ section.id }}-padding">
     <div class="">
       {%- if section.settings.title != blank -%}
@@ -112,6 +112,11 @@ button-->
         "id": "title",
         "default": "Featured collection",
         "label": "t:sections.featured-collection.settings.title.label"
+      },
+      {
+        "type": "image_picker",
+        "id": "background_image",
+        "label": "Image"
       },
       {
         "type": "collection",
