@@ -71,11 +71,11 @@ button-->
 
     <!-- If we need navigation buttons -->
     <div class="swiper-navigation-buttons">
-      <div class="swiper-button-prev">
+      <div class="swiper-custom-button-prev">
         <img src="https://cdn.shopify.com/s/files/1/0662/0571/2618/files/fill-arrow-right.svg?v=1671484195" class="arrow-enabled">
         <img src="https://cdn.shopify.com/s/files/1/0662/0571/2618/files/outline-arrow-right.svg?v=1671484195" class="arrow-disabled">
       </div>
-      <div class="swiper-button-next">
+      <div class="swiper-custom-button-next">
         <img src="https://cdn.shopify.com/s/files/1/0662/0571/2618/files/fill-arrow-right.svg?v=1671484195" class="arrow-enabled">
         <img src="https://cdn.shopify.com/s/files/1/0662/0571/2618/files/outline-arrow-right.svg?v=1671484195" class="arrow-disabled">
       </div>
@@ -162,14 +162,18 @@ button-->
 {% endschema %}
 <script>
     $(document).ready(function() {
-    const swiper = new Swiper('.swiper.custom-featured-collection-swiper',{
-      slidesPerView:4,
-      spaceBetween:30,
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    })
+      const swiper = new Swiper('.swiper.custom-featured-collection-swiper',{
+        slidesPerView:4,
+        spaceBetween:30,
+        navigation: {
+          nextEl: '.swiper-custom-button-next',
+          prevEl: '.swiper-custom-button-prev',
+        },
+      })
+    
+      swiper.on('slideChange', function () {
+        console.log('slide changed');
+      });
 
   })
 </script>
