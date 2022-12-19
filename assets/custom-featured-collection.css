@@ -85,3 +85,16 @@
   font-weight:300;
   color: #fff;
 }
+.swiper-custom-button-next .arrow-enabled{
+}
+.swiper-custom-button-next .arrow-disabled{
+  display:none;
+}
+
+.swiper-custom-button-prev .arrow-enabled{
+  transform:rotate(180deg);
+}
+.swiper-custom-button-prev .arrow-disabled{
+  transform:rotate(180deg);
+  display:none;
+}
