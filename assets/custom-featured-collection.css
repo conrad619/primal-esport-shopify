@@ -18,13 +18,18 @@
   left:-13px;
   font-size:96px;
   color: rgba(0, 0, 0, 0.5);
-  border: 1px solid #FFFFFF;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
   transform: rotate(90deg);
+  margin:0;
+  padding:0;
 }
 .swiper-slide-price-container{
   position:absolute;
   right:0;
   bottom:0;
+  background:rgb(var(--color-foreground));
+  padding:10px;
 }
 .swiper-slide-price-content{
   position:relative;

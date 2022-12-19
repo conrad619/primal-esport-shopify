@@ -73,7 +73,9 @@ button-->
           <div class="swiper-slide">
             <div class="swiper-slide-content">
               <img src="{{ product.featured_media | image_url }}" class="swiper-slide-img"/>
-              <h2 class="swiper-slide-title">{{ product.title }}</h2>
+              <div>
+                <h2 class="swiper-slide-title">{{ product.title }}</h2>
+              </div>
               <div class="swiper-slide-price-container">
                 <span class="swiper-slide-price-content">{{ product.price }}</span>
               </div>
