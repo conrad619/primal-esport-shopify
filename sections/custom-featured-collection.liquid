@@ -70,8 +70,10 @@ button-->
     </div>
 
     <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
+    <div class="swiper-navigation-buttons">
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
 
   </div>
 
@@ -152,3 +154,16 @@ button-->
     ]
   }
 {% endschema %}
+<script>
+    $(document).ready(function() {
+    const swiper = new Swiper('.swiper.custom-featured-collection-swiper',{
+      slidesPerView:4,
+      spaceBetween:30,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    })
+
+  })
+</script>
