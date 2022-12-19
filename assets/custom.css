@@ -7,3 +7,8 @@ html {
   scroll-behavior: smooth;
 }
 
+.header__menu-item{
+  font-size:14px;
+  font-weight:700;
+  text-transform: uppercase;
+}
