@@ -2,6 +2,23 @@
 .custom-featured-collection-container{
   background-size:cover;
 }
+.custom-featured-collection-title-container{
+  position: absolute;
+  top: 50px;
+  height: 0;
+  transform: rotate(90deg);
+  transform-origin: bottom left;
+  left: 281px;
+}
+.custom-featured-collection-title {
+  color: #fff;
+  font-family: Montserrat;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 120px;
+  margin: 0;
+  padding: 0;
+}
 .swiper {
   width: calc(100% - 350px);
   margin-right:0;
