@@ -48,7 +48,7 @@ button-->
   </div>
 
   <!-- Slider main container -->
-  <div class="swiper">
+  <div class="swiper custom-featured-collection-swiper">
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
       <!-- Slides -->
@@ -155,11 +155,11 @@ button-->
 
 <script>
   $(document).ready(function() {
-    const swiper = new Swiper('.swiper',{
+    const swiper = new Swiper('.swiper.custom-featured-collection-swiper',{
       freeMode: true,
       slidesPerView:4,
       spaceBetween:30,
-      pagination:'.swiper-pagination',
+      navigation:true
     })
 
 // Optional parameters
