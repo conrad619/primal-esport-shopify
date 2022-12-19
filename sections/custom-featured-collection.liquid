@@ -173,6 +173,8 @@ button-->
     
       swiper.on('slideChange', function () {
         console.log('slide changed');
+        $('.swiper-navigation-buttons').find('.arrow-enabled').css({'display':'block'})
+        $('.swiper-navigation-buttons').find('.arrow-disabled').css({'display':'none'})
         $('.swiper-button-disabled').find('.arrow-enabled').css({'display':'none'})
         $('.swiper-button-disabled').find('.arrow-disabled').css({'display':'block'})
       });
