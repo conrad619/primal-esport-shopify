@@ -59,6 +59,7 @@
   transform: translateY(calc(-100% + 41px));
   font-weight: 700;
   font-family: "Oswald";
+  text-transform:uppercase;
 }
 .swiper-slide-price-container{
   position:absolute;
