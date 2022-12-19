@@ -57,9 +57,9 @@ button-->
 
 <div class="custom-featured-collection-container color-{{ section.settings.color_scheme }}" style="background-image:url({{ section.settings.background_image | image_url }})">
   <div class="section-{{ section.id }}-padding">
-    <div class="">
+    <div class="custom-featured-collection-title-container">
       {%- if section.settings.title != blank -%}
-        <h2 class="{{ section.settings.heading_size }}">{{ section.settings.title | escape }}</h2>
+        <h2 class="custom-featured-collection-title">{{ section.settings.title | escape }}</h2>
       {%- endif -%}
 
     </div>
