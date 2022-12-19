@@ -45,6 +45,7 @@
 }
 .swiper-slide-price-content{
   font-size:32px;
-  font-family: var(--font-heading-family);
+  font-family: "Oswald";
+  font-weight:300;
   color: #fff;
 }
