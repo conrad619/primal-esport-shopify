@@ -69,6 +69,7 @@ button-->
       {%- endfor -%}
     </div>
 
+    <div>
     <!-- If we need navigation buttons -->
     <div class="swiper-navigation-buttons">
       <div class="swiper-custom-button-prev">
@@ -80,17 +81,19 @@ button-->
         <img src="https://cdn.shopify.com/s/files/1/0662/0571/2618/files/outline-arrow-right.svg?v=1671484195" class="arrow-disabled">
       </div>
     </div>
+      
+    {%- if section.settings.show_view_all and more_in_collection -%}
+      <div class="p_view-all">
+        <a href="{{ section.settings.collection.url }}" class="">
+          {{ 'sections.featured_collection.view_all' | t }}
+        </a>
+      </div>
+    {%- endif -%}
+    </div>
 
   </div>
 
 
-  {%- if section.settings.show_view_all and more_in_collection -%}
-    <div class="p_view-all">
-      <a href="{{ section.settings.collection.url }}" class="">
-        {{ 'sections.featured_collection.view_all' | t }}
-      </a>
-    </div>
-  {%- endif -%}
 </div>
 
 {% schema %}
