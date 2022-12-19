@@ -34,7 +34,7 @@
   transform-origin: bottom left;
   transform: translateY(calc(-100% + 41px));
   font-weight: 700;
-  font-family: "Montserrat";
+  font-family: "Oswald";
 }
 .swiper-slide-price-container{
   position:absolute;
