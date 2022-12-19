@@ -38,15 +38,4 @@
 // });
 
 
-  $(document).ready(function() {
-    const swiper = new Swiper('.swiper.custom-featured-collection-swiper',{
-      slidesPerView:4,
-      spaceBetween:30,
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    })
 
-// Optional parameters
-  })
