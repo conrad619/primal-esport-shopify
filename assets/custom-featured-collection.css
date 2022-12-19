@@ -1,5 +1,36 @@
 .swiper {
-    width: 100%;
-    height: 575px;
-  }
-  
+  width: 100%;
+}
+.swiper-slide-content{
+  width:300px;
+  height: 575px;
+  position:relative;
+  background:#fff;
+}  
+.swiper-slide-content-img{
+  position:absolute;
+  top:21px;
+  left:-8px;
+}
+.swiper-slide-title{
+  position:absolute;
+  top:63px;
+  left:-13px;
+  font-size:96px;
+  color: rgba(0, 0, 0, 0.5);
+  border: 1px solid #FFFFFF;
+  transform: rotate(90deg);
+}
+.swiper-slide-price-container{
+  position:absolute;
+  right:0;
+  bottom:0;
+}
+.swiper-slide-price-content{
+  position:relative;
+  top:11px;
+  right:9px;
+  font-size:32px;
+  font-family: var(--font-heading-family);
+  color: #fff;
+}
