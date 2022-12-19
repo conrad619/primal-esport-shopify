@@ -2,6 +2,8 @@
 .custom-featured-collection-container{
   background-size:cover;
   position:relative;
+  padding-top:118px;
+  padding-bottom:210px;
 }
 .custom-featured-collection-title-container{
   position: absolute;
