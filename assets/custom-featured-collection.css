@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
 .swiper {
   width: 100%;
+  margin-left:350px;
 }
 .swiper-slide-content{
   width:300px;
