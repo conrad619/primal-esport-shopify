@@ -178,4 +178,7 @@
   .swiper-slide-price-content{
     font-size: 24px;
   }
+  .swiper-slide-title-container{
+    width: 313px;
+  }
 }
