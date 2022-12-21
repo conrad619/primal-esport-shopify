@@ -113,8 +113,8 @@
       slidesPerView: 2,
       spaceBetween: 20,
       navigation: {
-        nextEl: '.swiper-custom-button-next',
-        prevEl: '.swiper-custom-button-prev'
+        nextEl: '.custom-card-collection .swiper-custom-button-next',
+        prevEl: '.custom-card-collection .swiper-custom-button-prev'
       },
       breakpoints: {
         750: {
@@ -126,16 +126,16 @@
 
     swiper.on('slideChange', function() {
       console.log('slide changed');
-      $('.swiper-navigation-buttons')
+      $('.custom-card-collection .swiper-navigation-buttons')
         .find('.arrow-enabled')
         .css({'display': 'block'})
-        $('.swiper-navigation-buttons')
+        $('.custom-card-collection .swiper-navigation-buttons')
         .find('.arrow-disabled')
         .css({'display': 'none'})
-      $('.swiper-button-disabled')
+      $('.custom-card-collection .swiper-button-disabled')
       .find('.arrow-enabled')
       .css({'display': 'none'})
-    $('.swiper-button-disabled')
+    $('.custom-card-collection .swiper-button-disabled')
     .find('.arrow-disabled')
     .css({'display': 'block'})
 });})
