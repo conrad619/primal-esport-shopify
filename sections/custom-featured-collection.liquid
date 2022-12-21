@@ -39,6 +39,7 @@ button-->
 -%}
 
 <div class="custom-featured-collection-container color-{{ section.settings.color_scheme }}" style="background-image:url({{ section.settings.background_image | image_url }})">
+  <div class="bg-fixed" style="background-image:url({{ section.settings.background_image_fixed | image_url }})"></div>
   <div class="custom-featured-collection-title-container">
     {%- if section.settings.title != blank -%}
       <h2 class="custom-featured-collection-title text-bg">{{ section.settings.title | escape }}</h2>
@@ -111,7 +112,12 @@ button-->
       {
         "type": "image_picker",
         "id": "background_image",
-        "label": "Image"
+        "label": "Background Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "background_image_fixed",
+        "label": "Background Image Fixed"
       },
       {
         "type": "collection",
