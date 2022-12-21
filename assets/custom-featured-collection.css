@@ -147,4 +147,11 @@
     margin-left: -15px;
     margin-top: -26px;
   }
+  .swiper{
+    width: calc(100% - 20px);
+    margin-top: 20px;
+  }
+  .swiper-slide-content{
+    height: 394px;
+  }
 }
