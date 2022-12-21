@@ -28,6 +28,13 @@
   height: 41px;
   left: 11px;
 }
+.custom-card-collection .swiper-slide-title-container > *{
+  color:#fff;
+}
+.custom-card-collection .swiper-slide a{
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+}
 .custom-card-collection .swiper-view-all{
   padding-top: 35px;
   padding-left: 30px;
