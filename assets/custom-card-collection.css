@@ -72,6 +72,11 @@
   background:#fff;
   color:rgba(var(--color-base-text));
 }
+.swiper-nav-view-container{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 @media screen and (max-width: 750px) {
   .custom-card-collection .swiper-{
     width: 100%;
