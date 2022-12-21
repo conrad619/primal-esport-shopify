@@ -180,5 +180,10 @@
   }
   .swiper-slide-title-container{
     width: 313px;
+    top: 10px;
+    left: 7px;
+  }
+  .swiper-slide-title{
+    font-size:32px;
   }
 }
