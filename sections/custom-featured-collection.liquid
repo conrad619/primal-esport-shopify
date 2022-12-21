@@ -38,7 +38,7 @@ button-->
   endif
 -%}
 
-<div class="custom-featured-collection custom-featured-collection-container color-{{ section.settings.color_scheme }}" style="background-image:url({{ section.settings.background_image | image_url }})">
+  <div class="custom-featured-collection custom-featured-collection-container color-{{ section.settings.color_scheme }}" style="background-image:url({{ section.settings.background_image | image_url }})">
   <div class="bg-fixed" style="background-image:url({{ section.settings.background_image_fixed | image_url }})"></div>
   <div class="custom-featured-collection-title-container">
     {%- if section.settings.title != blank -%}
@@ -57,7 +57,7 @@ button-->
         <div class="swiper-slide">
           <div class="swiper-slide-content">
             <a href="{{ product.url }}">
-              <img src="{{ product.featured_media | image_url }}" class="swiper-slide-img"/>
+              <img src="{{ product.featured_media | image_url }}" class="swiper-slide-img" />
               <div class="swiper-slide-title-container">
                 <h2 class="swiper-slide-title">{{ product.title }}</h2>
               </div>
@@ -74,15 +74,21 @@ button-->
       <!-- If we need navigation buttons -->
       <div class="swiper-navigation-buttons">
         <div class="swiper-custom-button-prev">
-          <img src="https://cdn.shopify.com/s/files/1/0662/0571/2618/files/fill-arrow-right.svg?v=1671484195" class="arrow-enabled" style="display:none;">
-          <img src="https://cdn.shopify.com/s/files/1/0662/0571/2618/files/outline-arrow-right.svg?v=1671484195" class="arrow-disabled" style="display:block">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0662/0571/2618/files/fill-arrow-right.svg?v=1671484195"
+            class="arrow-enabled"
+            style="display:none;">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0662/0571/2618/files/outline-arrow-right.svg?v=1671484195"
+            class="arrow-disabled"
+            style="display:block">
         </div>
         <div class="swiper-custom-button-next">
           <img src="https://cdn.shopify.com/s/files/1/0662/0571/2618/files/fill-arrow-right.svg?v=1671484195" class="arrow-enabled">
           <img src="https://cdn.shopify.com/s/files/1/0662/0571/2618/files/outline-arrow-right.svg?v=1671484195" class="arrow-disabled">
         </div>
       </div>
-        
+
       {%- if section.settings.show_view_all and more_in_collection -%}
         <div class="swiper-view-all">
           <a href="{{ section.settings.collection.url }}" class="swiper-view-all-text">
@@ -123,8 +129,7 @@ button-->
         "type": "collection",
         "id": "collection",
         "label": "t:sections.featured-collection.settings.collection.label"
-      },
-      {
+      }, {
         "type": "range",
         "id": "products_to_show",
         "min": 2,
@@ -132,8 +137,7 @@ button-->
         "step": 1,
         "default": 4,
         "label": "t:sections.featured-collection.settings.products_to_show.label"
-      },
-      {
+      }, {
         "type": "checkbox",
         "id": "show_view_all",
         "default": true,
@@ -172,29 +176,35 @@ button-->
   }
 {% endschema %}
 <script>
-    $(document).ready(function() {
-      const swiper = new Swiper('.swiper.custom-featured-collection-swiper',{
-        slidesPerView:2,
-        spaceBetween:20,
-        navigation: {
-          nextEl: '.swiper-custom-button-next',
-          prevEl: '.swiper-custom-button-prev',
-        },
-        breakpoints:{
-          750: {
-            slidesPerView:4,
-            spaceBetween:30,
-          },
+  $(document).ready(function() {
+    const swiper = new Swiper('.swiper.custom-featured-collection-swiper', {
+      slidesPerView: 2,
+      spaceBetween: 20,
+      navigation: {
+        nextEl: '.swiper-custom-button-next',
+        prevEl: '.swiper-custom-button-prev'
+      },
+      breakpoints: {
+        750: {
+          slidesPerView: 4,
+          spaceBetween: 30
         }
-      })
-    
-      swiper.on('slideChange', function () {
-        console.log('slide changed');
-        $('.swiper-navigation-buttons').find('.arrow-enabled').css({'display':'block'})
-        $('.swiper-navigation-buttons').find('.arrow-disabled').css({'display':'none'})
-        $('.swiper-button-disabled').find('.arrow-enabled').css({'display':'none'})
-        $('.swiper-button-disabled').find('.arrow-disabled').css({'display':'block'})
-      });
+      }
+    })
 
-  })
+    swiper.on('slideChange', function() {
+      console.log('slide changed');
+      $('.custom-featured-collection .swiper-navigation-buttons')
+        .find('.arrow-enabled')
+        .css({'display': 'block'})
+        $('.custom-featured-collection .swiper-navigation-buttons')
+        .find('.arrow-disabled')
+        .css({'display': 'none'})
+      $('.custom-featured-collection .swiper-button-disabled')
+      .find('.arrow-enabled')
+      .css({'display': 'none'})
+    $('.custom-featured-collection .swiper-button-disabled')
+    .find('.arrow-disabled')
+    .css({'display': 'block'})
+});})
 </script>

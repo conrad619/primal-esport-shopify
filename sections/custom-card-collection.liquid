@@ -8,13 +8,13 @@
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
       <!-- Slides -->
-      {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
+      {%- for block in section.blocks -%}
         <div class="swiper-slide">
           <div class="swiper-slide-content">
-            <a href="{{ product.url }}">
-              <img src="{{ product.featured_media | image_url }}" class="swiper-slide-img" />
+            <a href="{{ block.settings.link }}">
+              <img src="{{ block.settings.image }}" class="swiper-slide-img" />
               <div class="swiper-slide-title-container">
-                <h2 class="swiper-slide-title">{{ product.title }}</h2>
+                <h2 class="swiper-slide-title">{{ block.settings.heading }}</h2>
               </div>
             </a>
           </div>
@@ -43,8 +43,8 @@
 
       {%- if section.settings.show_view_all and more_in_collection -%}
         <div class="swiper-view-all">
-          <a href="{{ section.settings.collection.url }}" class="swiper-view-all-text">
-            {{ 'sections.featured_collection.view_all' | t }}
+          <a href="" class="swiper-view-all-text">
+            View All
           </a>
         </div>
       {%- endif -%}
@@ -69,11 +69,6 @@
         "step": 1,
         "default": 4,
         "label": "cards to show"
-      }, {
-        "type": "checkbox",
-        "id": "show_view_all",
-        "default": true,
-        "label": "t:sections.featured-collection.settings.show_view_all.label"
       }
     ],
     "blocks": [
@@ -85,6 +80,16 @@
             "type": "image_picker",
             "id": "image",
             "label": "Image"
+          }, {
+            "type": "text",
+            "id": "heading",
+            "default": "Slide title",
+            "label": "Slide Title"
+          }, {
+            "type": "url",
+            "id": "link",
+            "default": "#",
+            "label": "Slide Url"
           }
         ]
       }
