@@ -12,6 +12,7 @@
         <div class="swiper-slide">
           <div class="swiper-slide-content">
             <a href="{{ block.settings.link }}">
+              <div class="bg-overlay"></div>
               <img src="{{ block.settings.image | image_url }}" class="swiper-slide-img" />
               <div class="swiper-slide-title-container">
                 <h2 class="swiper-slide-title">{{ block.settings.heading }}</h2>
@@ -26,7 +27,6 @@
       <!-- If we need navigation buttons -->
       <div class="swiper-navigation-buttons">
         <div class="swiper-custom-button-next">
-          <div class="bg-overlay"></div>
           <img src="https://cdn.shopify.com/s/files/1/0662/0571/2618/files/card-collection-arrow.svg?v=1671664229">
         </div>
       </div>
