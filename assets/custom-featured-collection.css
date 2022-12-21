@@ -129,3 +129,22 @@
   background:#fff;
   color:rgba(var(--color-base-text));
 }
+@media screen and (max-width: 750px) {
+  .custom-featured-collection-title-container{
+    transform: none;
+    position: relative;
+    left: 0;
+    top: 0;
+    transform-origin: center;
+    height: auto;
+    width: auto;
+    margin-left: 80px;
+  }
+  .custom-featured-collection-title{
+    font-size: 64px;
+  }
+  .custom-featured-collection-title.text-bg{
+    margin-left: -15px;
+    margin-top: -26px;
+  }
+}
