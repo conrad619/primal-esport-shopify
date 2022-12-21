@@ -11,7 +11,8 @@
   height: 0;
   transform: rotate(90deg);
   transform-origin: bottom left;
-  left: 281px;
+  left: calc(10% + 148px);
+  width: 100%;
 }
 .custom-featured-collection-title {
   color: #fff;
