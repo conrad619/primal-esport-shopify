@@ -47,6 +47,7 @@
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
   z-index:2;
   display:block;
+  clip-path: polygon(15% 0, 100% 0, 100% 85%, 85% 100%, 0 100%, 0 15%);
 }
 .custom-card-collection .swiper-view-all{
   padding-top: 35px;
