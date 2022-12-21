@@ -25,10 +25,37 @@
             "heading": "Article 1",
             "link": "#"
           }
+        },
+        "d2197148-ca70-45af-aba8-e142e2e750d9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_3_1.png",
+            "heading": "Slide title",
+            "link": ""
+          }
+        },
+        "9ba77a56-3a89-4229-97d2-367cfb5b1fe3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_3_1.png",
+            "heading": "Slide title",
+            "link": ""
+          }
+        },
+        "1878a300-6f25-4da7-9e05-84c1fb9db526": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_3_1.png",
+            "heading": "Slide title",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "template--16690810749162__173d7a33-33b0-4a8a-b6e5-11c424997ff8-16716639215ced8dd1-0"
+        "template--16690810749162__173d7a33-33b0-4a8a-b6e5-11c424997ff8-16716639215ced8dd1-0",
+        "d2197148-ca70-45af-aba8-e142e2e750d9",
+        "9ba77a56-3a89-4229-97d2-367cfb5b1fe3",
+        "1878a300-6f25-4da7-9e05-84c1fb9db526"
       ],
       "settings": {
         "cards_to_show": 4
