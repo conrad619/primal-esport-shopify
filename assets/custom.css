@@ -1,6 +1,6 @@
 body{
   overflow-x:hidden;
-  background:rgb(var(--color-background));
+  background:rgb(var(--color-background)) !important;
 }
 html {
   scroll-behavior: smooth;
