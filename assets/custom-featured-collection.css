@@ -31,6 +31,15 @@
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
 }
+.custom-featured-collection .bg-fixed{
+  position:absolute;
+  width:100%;
+  height:100%;
+  background-repeat:no-repeat;
+  background-position:100% 100%;
+  opacity:.5;
+  background-attachment:fixed;
+}
 .swiper{
   width: calc(100% - 350px);
   margin-right:0;
