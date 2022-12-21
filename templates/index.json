@@ -5,6 +5,7 @@
       "settings": {
         "title": "Featured",
         "background_image": "shopify:\/\/shop_images\/bg-main.png",
+        "background_image_fixed": "shopify:\/\/shop_images\/primal-logo-colored.png",
         "collection": "primal-unisex",
         "products_to_show": 12,
         "show_view_all": true,
