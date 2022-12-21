@@ -1,0 +1,136 @@
+{{ 'custom-card-collection.css' | asset_url | stylesheet_tag }}
+
+
+  <div class="custom-card-collection custom-featured-collection-container color-{{ section.settings.color_scheme }}" style="background-image:url({{ section.settings.background_image | image_url }})">
+
+  <!-- Slider main container -->
+  <div class="swiper custom-card-collection-swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
+        <div class="swiper-slide">
+          <div class="swiper-slide-content">
+            <a href="{{ product.url }}">
+              <img src="{{ product.featured_media | image_url }}" class="swiper-slide-img" />
+              <div class="swiper-slide-title-container">
+                <h2 class="swiper-slide-title">{{ product.title }}</h2>
+              </div>
+            </a>
+          </div>
+        </div>
+      {%- endfor -%}
+    </div>
+
+    <div class="swiper-nav-view-container">
+      <!-- If we need navigation buttons -->
+      <div class="swiper-navigation-buttons">
+        <div class="swiper-custom-button-prev">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0662/0571/2618/files/fill-arrow-right.svg?v=1671484195"
+            class="arrow-enabled"
+            style="display:none;">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0662/0571/2618/files/outline-arrow-right.svg?v=1671484195"
+            class="arrow-disabled"
+            style="display:block">
+        </div>
+        <div class="swiper-custom-button-next">
+          <img src="https://cdn.shopify.com/s/files/1/0662/0571/2618/files/fill-arrow-right.svg?v=1671484195" class="arrow-enabled">
+          <img src="https://cdn.shopify.com/s/files/1/0662/0571/2618/files/outline-arrow-right.svg?v=1671484195" class="arrow-disabled">
+        </div>
+      </div>
+
+      {%- if section.settings.show_view_all and more_in_collection -%}
+        <div class="swiper-view-all">
+          <a href="{{ section.settings.collection.url }}" class="swiper-view-all-text">
+            {{ 'sections.featured_collection.view_all' | t }}
+          </a>
+        </div>
+      {%- endif -%}
+    </div>
+
+  </div>
+
+
+</div>
+
+{% schema %}
+  {
+    "name": "Custom Card Collection",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+      {
+        "type": "range",
+        "id": "cards_to_show",
+        "min": 2,
+        "max": 12,
+        "step": 1,
+        "default": 4,
+        "label": "cards to show"
+      }, {
+        "type": "checkbox",
+        "id": "show_view_all",
+        "default": true,
+        "label": "t:sections.featured-collection.settings.show_view_all.label"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Slide",
+        "type": "slide",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }
+        ]
+      }
+
+    ],
+    "presets": [
+      {
+        "name": "Custom Card Collection",
+        "settings": {
+          "title": "Custom Card Collection"
+        }
+      }
+    ]
+  }
+{% endschema %}
+
+<script>
+  $(document).ready(function() {
+    const swiper = new Swiper('.swiper.custom-card-collection-swiper', {
+      slidesPerView: 2,
+      spaceBetween: 20,
+      navigation: {
+        nextEl: '.swiper-custom-button-next',
+        prevEl: '.swiper-custom-button-prev'
+      },
+      breakpoints: {
+        750: {
+          slidesPerView: 4,
+          spaceBetween: 30
+        }
+      }
+    })
+
+    swiper.on('slideChange', function() {
+      console.log('slide changed');
+      $('.swiper-navigation-buttons')
+        .find('.arrow-enabled')
+        .css({'display': 'block'})
+        $('.swiper-navigation-buttons')
+        .find('.arrow-disabled')
+        .css({'display': 'none'})
+      $('.swiper-button-disabled')
+      .find('.arrow-enabled')
+      .css({'display': 'none'})
+    $('.swiper-button-disabled')
+    .find('.arrow-disabled')
+    .css({'display': 'block'})
+});})
+</script>
