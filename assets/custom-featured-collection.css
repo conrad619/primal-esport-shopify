@@ -192,4 +192,7 @@
   .swiper-navigation-buttons > div{
     height:55px; 
   }
+  .swiper-view-all-text{
+    font-size:24px;
+  }
 }
