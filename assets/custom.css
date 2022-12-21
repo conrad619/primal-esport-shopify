@@ -1,5 +1,6 @@
 body{
   overflow-x:hidden;
+  background:#1F2326;
 }
 html {
   scroll-behavior: smooth;
@@ -9,4 +10,8 @@ html {
   font-size:14px;
   font-weight:700;
   text-transform: uppercase;
+}
+#MainContent{
+  max-width:var(--page-width);
+  margin:0 auto;
 }
