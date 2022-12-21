@@ -6,7 +6,7 @@
 }
 .custom-card-collection .swiper{
   width: calc(100% - 350px);
-  margin-right:0;
+  margin-left:0;
 }
 .custom-card-collection .swiper-slide-content{
 /*   width:300px; */
