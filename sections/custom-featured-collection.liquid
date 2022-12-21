@@ -38,7 +38,7 @@ button-->
   endif
 -%}
 
-  <div class="custom-featured-collection custom-featured-collection-container color-{{ section.settings.color_scheme }}" style="background-image:url({{ section.settings.background_image | image_url }})">
+<div class="custom-featured-collection custom-featured-collection-container color-{{ section.settings.color_scheme }}" style="background-image:url({{ section.settings.background_image | image_url }})">
   <div class="bg-fixed" style="background-image:url({{ section.settings.background_image_fixed | image_url }})"></div>
   <div class="custom-featured-collection-title-container">
     {%- if section.settings.title != blank -%}
@@ -193,18 +193,19 @@ button-->
     })
 
     swiper.on('slideChange', function() {
-      console.log('slide changed');
-      $('.custom-featured-collection .swiper-navigation-buttons')
-        .find('.arrow-enabled')
-        .css({'display': 'block'})
+        console.log('slide changed');
         $('.custom-featured-collection .swiper-navigation-buttons')
-        .find('.arrow-disabled')
+          .find('.arrow-enabled')
+          .css({'display': 'block'})
+          $('.custom-featured-collection .swiper-navigation-buttons')
+          .find('.arrow-disabled')
+          .css({'display': 'none'})
+        $('.custom-featured-collection .swiper-button-disabled')
+        .find('.arrow-enabled')
         .css({'display': 'none'})
       $('.custom-featured-collection .swiper-button-disabled')
-      .find('.arrow-enabled')
-      .css({'display': 'none'})
-    $('.custom-featured-collection .swiper-button-disabled')
-    .find('.arrow-disabled')
-    .css({'display': 'block'})
-});})
+      .find('.arrow-disabled')
+      .css({'display': 'block'})
+  });
+})
 </script>
