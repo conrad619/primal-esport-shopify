@@ -23,10 +23,8 @@
 }
 .custom-card-collection .swiper-slide-title-container{
   position: absolute;
-  transform: rotate(90deg);
-  transform-origin: bottom left;
   width: 488px;
-  top: 29px;
+  top: 100%;
   height: 41px;
   left: 11px;
 }
