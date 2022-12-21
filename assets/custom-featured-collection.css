@@ -41,6 +41,7 @@
   background-attachment: fixed;
   top: 0;
   background-size: 711px;
+  display:block;
 }
 .swiper{
   width: calc(100% - 350px);
