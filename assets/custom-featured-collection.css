@@ -172,4 +172,10 @@
   .swiper-slide-content{
     height: 394px;
   }
+  .swiper-slide-price-container{
+    padding: 7px 7px 7px 30px;
+  }
+  .swiper-slide-price-content{
+    font-size: 24px;
+  }
 }
