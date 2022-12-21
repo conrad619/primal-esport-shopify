@@ -24,12 +24,13 @@
 .custom-card-collection .swiper-slide-title-container{
   position: absolute;
   width: 488px;
-  top: 100%;
+  bottom:0;
   height: 41px;
   left: 11px;
 }
 .custom-card-collection .swiper-slide-title-container > *{
   color:#fff;
+  margin:0;
 }
 .custom-card-collection .swiper-slide a{
   background: rgb(0,0,0);
