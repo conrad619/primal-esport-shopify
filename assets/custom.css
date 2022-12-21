@@ -1,6 +1,6 @@
 body{
   overflow-x:hidden;
-  background-color:var(--gradient-background) !important;
+  background-color:#1F2326;
 }
 html {
   scroll-behavior: smooth;
