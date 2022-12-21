@@ -38,7 +38,7 @@ button-->
   endif
 -%}
 
-<div class="custom-featured-collection-container color-{{ section.settings.color_scheme }}" style="background-image:url({{ section.settings.background_image | image_url }})">
+<div class="custom-featured-collection custom-featured-collection-container color-{{ section.settings.color_scheme }}" style="background-image:url({{ section.settings.background_image | image_url }})">
   <div class="bg-fixed" style="background-image:url({{ section.settings.background_image_fixed | image_url }})"></div>
   <div class="custom-featured-collection-title-container">
     {%- if section.settings.title != blank -%}
