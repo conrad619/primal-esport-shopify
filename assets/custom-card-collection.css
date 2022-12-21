@@ -1,0 +1,3 @@
+.custom-card-collection .swiper-slide-content{
+  clip-path: polygon(15% 0, 100% 0, 100% 85%, 85% 100%, 0 100%, 0 15%);
+}
