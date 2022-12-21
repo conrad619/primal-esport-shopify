@@ -5,8 +5,9 @@
   padding-bottom:210px;
 }
 .custom-card-collection .swiper{
-  width: calc(100% - 350px);
+  width: 100%;
   margin-left:0;
+  padding-right:90px;
 }
 .custom-card-collection .swiper-slide-content{
 /*   width:300px; */
