@@ -1,6 +1,6 @@
 body{
   overflow-x:hidden;
-  background-color:#1F2326;
+  background-color:#1F2326 !important;
 }
 html {
   scroll-behavior: smooth;
