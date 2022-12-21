@@ -159,6 +159,10 @@
     margin-left: -15px;
     margin-top: -26px;
   }
+  .custom-featured-collection .bg-fixed{
+    background-position: 23vw 28vh;
+    background-size: 509px;
+  }
   .swiper{
     width: 100%;
     margin-top: 20px;
