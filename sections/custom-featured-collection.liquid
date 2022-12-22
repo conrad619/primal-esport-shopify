@@ -178,22 +178,23 @@ button-->
 <script>
   $(document).ready(function() {
     const swiper = new Swiper('.swiper.custom-featured-collection-swiper', {
-      slidesPerView: 2,
+      // slidesPerView: 2,
       spaceBetween: 20,
+      freeMode:true,
       navigation: {
         nextEl: '.swiper-custom-button-next',
         prevEl: '.swiper-custom-button-prev'
       },
-      breakpoints: {
-        1200: {
-          slidesPerView: 4,
-          spaceBetween: 60
-        },
-        750: {
-          slidesPerView: 2,
-          spaceBetween: 60
-        }
-      }
+      // breakpoints: {
+      //   1200: {
+      //     slidesPerView: 4,
+      //     spaceBetween: 60
+      //   },
+      //   750: {
+      //     slidesPerView: 2,
+      //     spaceBetween: 60
+      //   }
+      // }
     })
 
     swiper.on('slideChange', function() {
