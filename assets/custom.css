@@ -14,7 +14,7 @@ html {
 }
 #MainContent{
   max-width:1920px;
-  marign:0 auto;
+  margin:0 auto;
 }
 
 @media screen and (max-width: 750px) {
