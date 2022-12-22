@@ -14,7 +14,7 @@
   height: 200px;
   position:relative;
   background:#fff;
-  clip-path: polygon(15% 0, 100% 0, 100% 85%, 85% 100%, 0 100%, 0 15%);
+  clip-path: polygon(30px 0,100% 0,100% calc(100% - 30px),calc(100% - 30px) 100%,0 100%,0 30px);
 }  
 .custom-card-collection .swiper-slide-img{
   position: absolute;
@@ -24,7 +24,7 @@
   z-index: 1;
   top: 1px;
   left: 1px;
-  clip-path: polygon(15% 0,100% 0,100% 85%,85% 100%,0 100%,0 15%);
+  clip-path: polygon(30px 0,100% 0,100% calc(100% - 30px),calc(100% - 30px) 100%,0 100%,0 30px);
 }
 .custom-card-collection .swiper-slide-title-container{
   position: absolute;
@@ -48,7 +48,7 @@
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
   z-index:2;
   display:block;
-  clip-path: polygon(15% 0, 100% 0, 100% 85%, 85% 100%, 0 100%, 0 15%);
+  clip-path: polygon(30px 0,100% 0,100% calc(100% - 30px),calc(100% - 30px) 100%,0 100%,0 30px);
 }
 .custom-card-collection .swiper-view-all{
   padding-top: 35px;
