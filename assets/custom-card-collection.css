@@ -7,7 +7,7 @@
 .custom-card-collection .swiper{
   width: 100%;
   margin-left:0;
-  padding-right:90px;
+  padding-right:0;
 }
 .custom-card-collection .swiper-slide-content{
 /*   width:300px; */
@@ -78,6 +78,9 @@
 }
 .custom-card-collection .swiper-wrapper{
   position:relative;
+}
+.custom-card-collection .swiper-navigation-buttons{
+  margin-left:20px;
 }
 @media screen and (max-width: 750px) {
   .custom-card-collection .swiper-{
