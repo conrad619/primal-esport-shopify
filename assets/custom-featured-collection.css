@@ -140,6 +140,12 @@
   background:#fff;
   color:rgba(var(--color-base-text));
 }
+
+
+@media screen and (max-width: 1200px) {
+
+}
+
 @media screen and (max-width: 750px) {
   .custom-featured-collection-title-container{
     transform: none;
