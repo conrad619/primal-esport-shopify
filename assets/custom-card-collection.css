@@ -82,6 +82,9 @@
 .custom-card-collection .swiper-navigation-buttons{
   margin-left:20px;
 }
+.custom-card-collection .swiper-pagination{
+  top:100%;
+}
 @media screen and (max-width: 750px) {
   .custom-card-collection .swiper-{
     width: 100%;
