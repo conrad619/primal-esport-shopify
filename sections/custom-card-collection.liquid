@@ -25,7 +25,7 @@
       </div>
   
       <div class="swiper-nav-view-container">
-  
+        <div class="swiper-pagination"></div>
         {%- if section.settings.show_view_all and more_in_collection -%}
           <div class="swiper-view-all">
             <a href="" class="swiper-view-all-text">
@@ -104,6 +104,9 @@
       slidesPerView: 2,
       spaceBetween: 20,
       reverseDirection:true,
+      pagination: {
+        el: '.swiper-pagination'
+      }
       navigation: {
         nextEl: '.custom-card-collection .swiper-custom-button-next',
         prevEl: '.custom-card-collection .swiper-custom-button-prev'
