@@ -85,6 +85,15 @@
 .custom-card-collection .swiper-pagination{
   top:100%;
 }
+.custom-card-collection .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+  border-radius: 0;
+  height: 8px;
+  width: 23px;
+  border: 1px solid #000;
+}
+.custom-card-collection .swiper-pagination-bullet-active{
+  background:#fff;
+}
 @media screen and (max-width: 750px) {
   .custom-card-collection .swiper-{
     width: 100%;
