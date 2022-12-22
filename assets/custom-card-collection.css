@@ -76,6 +76,9 @@
   background:#fff;
   color:rgba(var(--color-base-text));
 }
+.custom-card-collection .swiper-wrapper{
+  position:relative;
+}
 @media screen and (max-width: 750px) {
   .custom-card-collection .swiper-{
     width: 100%;
