@@ -17,7 +17,27 @@ html {
   width:100%;
   margin:0 auto;
 }
+.btn-a{
+  background: rgba(var(--color-base-text));
+  border: 1px solid #fff;
+  transition: .2s all;
+  color: #fff;background: rgba(var(--color-base-text));
+}
+.btn-a:hover{
+  background: #fff;
+  color: rgba(var(--color-base-text));
+}
 
+.btn-b{
+  background: #fff;
+  border: 1px solid #fff;
+  transition: .2s all;
+  color: rgba(var(--color-base-text));
+}
+.btn-b:hover{
+  background: rgba(var(--color-base-text));
+  color: #fff;background: rgba(var(--color-base-text));
+}
 @media screen and (max-width: 750px) {
   #MainContent{
     max-width:auto;
