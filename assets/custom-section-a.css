@@ -45,6 +45,8 @@
 .custom-section-a .col.second-column{
   width:54%;
   padding-right:30px;
+  position:relative;
+  z-index:-1;
 }
 .custom-section-a .col.second-column .bg-border{
   margin-left: -438px;
