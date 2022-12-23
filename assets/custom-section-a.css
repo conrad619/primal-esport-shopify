@@ -1,26 +1,29 @@
-.row{
+.custom-section-a {
+  padding:100px 0;
+}
+.custom-section-a .row{
   display:flex;
   margin:0px 50px;
 }
-.col.first-column{
+.custom-section-a .col.first-column{
   padding-left:50px;
   width:46%;
 }
-.col.first-column h2{
+.custom-section-a .col.first-column h2{
   font-size:96px;
   font-weight:700;
   font-family:'Oswald';
 }
-.col.first-column h3{
+.custom-section-a .col.first-column h3{
   font-size:16px;
   font-weight:700;
   font-family:'Montserrat';
 }
-.col.first-column p{
+.custom-section-a .col.first-column p{
   font-size:16px;
   font-family:'Montserrat';
 }
-.col.first-column a{
+.custom-section-a .col.first-column a{
   font-size:24px;
   font-family:'Oswald';
   font-weight:700;
@@ -28,7 +31,7 @@
   color:#fff;
   background:#1F2326;
 }
-.col.second-column{
+.custom-section-a .col.second-column{
   width:54%;
   padding-right:30px;
 }
