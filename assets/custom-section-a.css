@@ -57,7 +57,7 @@
 }
 .custom-section-a .col.second-column .img-container{
   width:84%;
-  postion: relative;
+  position: relative;
 }
 .custom-section-a .col.second-column .img-overlay{
   background: linear-gradient(90deg,#FFF 9%, rgba(255, 255, 255, 0) 40%);
