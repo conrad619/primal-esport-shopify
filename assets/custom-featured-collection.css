@@ -21,6 +21,7 @@
   font-size: 120px;
   margin: 0;
   padding: 0;
+  width:max-content;
 }
 .custom-featured-collection-title.text-bg{
   margin-left: -50px;
