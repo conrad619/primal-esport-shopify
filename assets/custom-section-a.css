@@ -13,15 +13,18 @@
   font-size:96px;
   font-weight:700;
   font-family:'Oswald';
+  margin-bottom:36px;
 }
 .custom-section-a .col.first-column h3{
   font-size:16px;
   font-weight:700;
   font-family:'Montserrat';
+  margin-bottom:18px;
 }
 .custom-section-a .col.first-column p{
   font-size:16px;
   font-family:'Montserrat';
+  margin-bottom:60px;
 }
 .custom-section-a .col.first-column a{
   font-size:24px;
@@ -31,6 +34,7 @@
   color:#fff;
   background:#1F2326;
   text-decoration:none;
+  display:inline-block;
 }
 .custom-section-a .col.second-column{
   width:54%;
