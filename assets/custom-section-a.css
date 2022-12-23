@@ -75,3 +75,11 @@
   height:100%;
   object-fit:cover;
 }
+.custom-section-a .col.second-column .bottom-border{
+  position: absolute;
+  bottom:0;
+  right:0;
+  height:25px;
+  background:rgba(var(--color-base-text));
+  width:36%;
+}
