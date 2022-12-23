@@ -21,7 +21,8 @@ html {
   background: rgba(var(--color-base-text));
   border: 1px solid #fff;
   transition: .2s all;
-  color: #fff;background: rgba(var(--color-base-text));
+  color: #fff;
+  background: rgba(var(--color-base-text));
 }
 .btn-a:hover{
   background: #fff;
