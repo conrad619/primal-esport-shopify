@@ -11,6 +11,9 @@
   padding-left:50px;
   width:46%;
 }
+.custom-section-a .col.first-column > *{
+  margin:0;
+}
 .custom-section-a .col.first-column h2{
   font-size:96px;
   font-weight:700;
