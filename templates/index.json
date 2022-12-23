@@ -60,10 +60,17 @@
       "settings": {
         "cards_to_show": 4
       }
+    },
+    "b7677a5d-808e-494b-9ee3-5a40a13b78a5": {
+      "type": "custom-section-a",
+      "settings": {
+        "cards_to_show": 4
+      }
     }
   },
   "order": [
     "1173e388-6730-415d-af55-cfa1db5cad97",
-    "173d7a33-33b0-4a8a-b6e5-11c424997ff8"
+    "173d7a33-33b0-4a8a-b6e5-11c424997ff8",
+    "b7677a5d-808e-494b-9ee3-5a40a13b78a5"
   ]
 }
