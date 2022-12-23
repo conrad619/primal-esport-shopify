@@ -149,7 +149,7 @@
 
 @media screen and (max-width: 750px) {
   .custom-featured-collection .swiper-slide{
-    width:400px;
+    width:300px;
   }
   .custom-featured-collection-title-container{
     transform: none;
