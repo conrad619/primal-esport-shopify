@@ -1,12 +1,52 @@
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Custom Section A",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+      {
+        "type": "range",
+        "id": "cards_to_show",
+        "min": 2,
+        "max": 12,
+        "step": 1,
+        "default": 4,
+        "label": "cards to show"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Slide",
+        "type": "slide",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }, {
+            "type": "text",
+            "id": "heading",
+            "default": "Slide title",
+            "label": "Slide Title"
+          }, {
+            "type": "url",
+            "id": "link",
+            "label": "Slide Url"
+          }
+        ]
+      }
+
+    ],
+    "presets": [
+      {
+        "name": "Custom Section A",
+        "blocks": [
+          {
+            "type": "slide"
+          }
+        ]
+      }
+    ]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
