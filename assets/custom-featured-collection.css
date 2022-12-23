@@ -47,6 +47,7 @@
   margin-right:0;
 }
 .custom-featured-collection .swiper-slide{
+  width:300px;
 }
 .custom-featured-collection .swiper-slide-content{
 /*   width:300px; */
