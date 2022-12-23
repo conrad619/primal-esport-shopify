@@ -1,5 +1,6 @@
 .custom-section-a {
   padding:100px 0;
+  max-width:var(--page-width);
 }
 .custom-section-a .row{
   display:flex;
