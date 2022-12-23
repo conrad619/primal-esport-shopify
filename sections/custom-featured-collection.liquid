@@ -178,7 +178,7 @@ button-->
 <script>
   $(document).ready(function() {
     const swiper = new Swiper('.swiper.custom-featured-collection-swiper', {
-      slidesPerView: 2,
+      slidesPerView: 'auto',
       spaceBetween: 20,
       navigation: {
         nextEl: '.swiper-custom-button-next',
@@ -186,7 +186,6 @@ button-->
       },
       breakpoints: {
         750: {
-          slidesPerView: 'auto',
           spaceBetween: 60
         }
       }
