@@ -103,8 +103,8 @@
     const swiper = new Swiper('.swiper.custom-card-collection-swiper', {
       slidesPerView: 2,
       spaceBetween: 20,
-      reverseDirection:false,
       loop: true,
+      rtl: true,
       pagination: {
         el: '.swiper-pagination'
       },
@@ -115,8 +115,7 @@
       breakpoints: {
         750: {
           slidesPerView: 'auto',
-          spaceBetween: 50,
-          initialSlide: $('.swiper-slide').length - 1
+          spaceBetween: 50
         }
       }
     })
