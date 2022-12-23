@@ -49,11 +49,10 @@
 .custom-section-a .col.second-column .bg-border{
   margin-left: -438px;
   width: calc(100% + 438px);
-  display:flex;
   border-top:1px solid #1F2326;
   border-right:1px solid #1F2326;
+  padding-top:60px;
 }
 .custom-section-a .col.second-column img{
-  justify-content:end;
-  align-items:end;
+  float:right;
 }
