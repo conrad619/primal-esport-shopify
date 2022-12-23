@@ -125,22 +125,14 @@
   padding-left: 30px;
 }
 .custom-featured-collection .swiper-view-all-text{
-  color: #fff;
   text-decoration: none;
   font-family: "Oswald";
   font-size: 32px;
   text-transform: uppercase;
-  background: rgba(var(--color-base-text));
   padding: 10px 60px;
-  border:1px solid #fff;
-  transition:.2s all;
 }
 .custom-featured-collection .swiper-nav-view-container{
   display:flex;
-}
-.custom-featured-collection .swiper-view-all-text:hover{
-  background:#fff;
-  color:rgba(var(--color-base-text));
 }
 
 
