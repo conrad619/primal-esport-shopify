@@ -55,6 +55,9 @@
   display:flex;
   justify-content:end;
 }
-.custom-section-a .col.second-column img{
+.custom-section-a .col.second-column .img-overlay{
   background: linear-gradient(90.34deg, #FFFFFF 39.87%, rgba(255, 255, 255, 0) 56.23%);
+}
+.custom-section-a .col.second-column img{
+  width:84%;
 }
