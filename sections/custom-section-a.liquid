@@ -1,6 +1,36 @@
 
 {{ 'custom-section-a.css' | asset_url | stylesheet_tag }}
 
+<div class="custom-section-a color-{{ section.settings.color_scheme }}">
+<!--   div
+   h2
+   h3
+   p
+   button
+  div
+   div
+     image
+     div -->
+  <div class="row">
+    <div class="col first-column">
+      <h2>
+        TAKE THE CHALLENGE
+      </h2>
+      <h3>DO WHATEVER IT TAKES</h3>
+      <p>
+        Ut eget massa aliquam dui pellentesque molestie. Nullam sodales nec odio ut aliquet. Donec pharetra gravida sem, eget iaculis tortor lobortis eget. Fusce efficitur non justo sed porta. Maecenas ex purus, 
+      </p>
+      <a href="#">LEARN MORE</a>
+    </div>
+    <div class="col second-column">
+      <div class="bg-border">
+        <img src="https://cdn.shopify.com/s/files/1/0662/0571/2618/files/pexels-yan-krukov-9072274_1.png?v=1671833852"/>
+        <div class="bottom-border">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 {% schema %}
   {
