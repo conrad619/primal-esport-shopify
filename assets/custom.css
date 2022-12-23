@@ -26,6 +26,7 @@ html {
 .btn-a:hover{
   background: #fff;
   color: rgba(var(--color-base-text));
+  border: 1px solid rgba(var(--color-base-text));
 }
 
 .btn-b{
@@ -37,6 +38,7 @@ html {
 .btn-b:hover{
   background: rgba(var(--color-base-text));
   color: #fff;background: rgba(var(--color-base-text));
+  border: 1px solid #fff);
 }
 @media screen and (max-width: 750px) {
   #MainContent{
