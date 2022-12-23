@@ -47,7 +47,7 @@
   margin-right:0;
 }
 .custom-featured-collection .swiper-slide{
-  width:210px;
+  width:300px;
 }
 .custom-featured-collection .swiper-slide-content{
 /*   width:300px; */
@@ -149,7 +149,7 @@
 
 @media screen and (max-width: 750px) {
   .custom-featured-collection .swiper-slide{
-    width:300px;
+    width:210px;
   }
   .custom-featured-collection-title-container{
     transform: none;
