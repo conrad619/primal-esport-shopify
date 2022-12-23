@@ -10,6 +10,7 @@
 .custom-section-a .col.first-column{
   padding-left:50px;
   width:46%;
+  
 }
 .custom-section-a .col.first-column > *{
   margin:0;
@@ -44,4 +45,15 @@
 .custom-section-a .col.second-column{
   width:54%;
   padding-right:30px;
+}
+.custom-section-a .col.second-column .bg-border{
+  margin-left: -438px;
+  width: calc(100% + 438px);
+  display:flex;
+  border-top:1px solid #1F2326;
+  border-right:1px solid #1F2326;
+}
+.custom-section-a .col.second-column img{
+  justify-content:end;
+  align-items:end;
 }
