@@ -6,6 +6,28 @@
   padding-left:50px;
   width:46%;
 }
+.col.first-column h2{
+  font-size:96px;
+  font-weight:700;
+  font-family:'Oswald';
+}
+.col.first-column h3{
+  font-size:16px;
+  font-weight:700;
+  font-family:'Montserrat';
+}
+.col.first-column p{
+  font-size:16px;
+  font-family:'Montserrat';
+}
+.col.first-column a{
+  font-size:24px;
+  font-family:'Oswald';
+  font-weight:700;
+  padding:22px 75px;
+  color:#fff;
+  background:#1F2326;
+}
 .col.second-column{
   width:54%;
   padding-right:30px;
