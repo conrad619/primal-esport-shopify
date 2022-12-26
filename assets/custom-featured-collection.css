@@ -10,7 +10,7 @@
   height: 0;
   transform: rotate(90deg);
   transform-origin: bottom left;
-  left: calc(7% + 148px);
+  left: 280px;
   width: 100%;
 }
 .custom-featured-collection-title {
