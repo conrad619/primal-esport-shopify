@@ -87,3 +87,21 @@
   background:rgba(var(--color-base-text));
   width:36%;
 }
+
+@media screen and (max-width: 750px) {
+  .custom-section-a .col.first-column h2{
+    font-size:64px;
+    margin-bottom:24px;
+  }
+  .custom-section-a .col.first-column h3{
+    font-size:16px;
+    margin-bottom:16px;
+  }
+  .custom-section-a .col.first-column p{
+    font-size:16px;
+    margin-bottom:40px;
+  }
+  .custom-section-a .col.first-column a{
+    font-size:24px;
+  }
+}
