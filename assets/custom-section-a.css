@@ -104,4 +104,11 @@
   .custom-section-a .col.first-column a{
     font-size:24px;
   }
+  .custom-section-a .row{
+    margin:0 30px;
+  }
+  .custom-section-a .col.first-column{
+    padding-left: 0;
+    margin-bottom:0;
+  }
 }
