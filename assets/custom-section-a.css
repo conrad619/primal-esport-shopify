@@ -111,4 +111,7 @@
     padding-left: 0;
     margin-bottom:0;
   }
+  .custom-section-a .col.first-column a{
+    padding: 16px 48px;
+  }
 }
