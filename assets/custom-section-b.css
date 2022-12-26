@@ -10,6 +10,8 @@
 }
 .custom-section-b .first-column{
   width:100%;
+  position:absolute;
+  padding-left:30px;
 }
 .custom-section-b .bg-border{
   border:1px solid #fff;
