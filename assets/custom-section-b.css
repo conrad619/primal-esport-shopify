@@ -1,13 +1,12 @@
 .custom-section-b {
-  padding:100px 0;
   max-width:var(--page-width);
   margin:0 auto;
+  background:rgba(var(--color-base-text));
 }
 .custom-section-b .row{
   display:flex;
   margin:0px 50px;
   position:relative;
-  background:rgba(var(--color-base-text));
 }
 .custom-section-b .bg-border{
   border:1px solid #fff;
