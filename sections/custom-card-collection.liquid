@@ -101,7 +101,7 @@
 <script>
   $(document).ready(function() {
     const swiper = new Swiper('.swiper.custom-card-collection-swiper', {
-      slidesPerView: 2,
+      slidesPerView: 'auto',
       spaceBetween: 20,
       loop: true,
       rtl: true,
@@ -114,25 +114,11 @@
       },
       breakpoints: {
         750: {
-          slidesPerView: 'auto',
           spaceBetween: 50,
         }
       }
     })
 
-    swiper.on('slideChange', function() {
-      console.log('slide changed');
-      $('.custom-card-collection .swiper-navigation-buttons')
-        .find('.arrow-enabled')
-        .css({'display': 'block'})
-        $('.custom-card-collection .swiper-navigation-buttons')
-        .find('.arrow-disabled')
-        .css({'display': 'none'})
-      $('.custom-card-collection .swiper-button-disabled')
-      .find('.arrow-enabled')
-      .css({'display': 'none'})
-    $('.custom-card-collection .swiper-button-disabled')
-    .find('.arrow-disabled')
-    .css({'display': 'block'})
-});})
+  
+  })
 </script>
