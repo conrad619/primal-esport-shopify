@@ -105,13 +105,28 @@
     font-size:24px;
   }
   .custom-section-a .row{
-    margin:0 30px;
+    margin:0;
+    flex-direction:column;
   }
   .custom-section-a .col.first-column{
     padding-left: 0;
-    margin-bottom:0;
+    margin:0 30px;'
+    width:auto;
   }
   .custom-section-a .col.first-column a{
     padding: 16px 48px;
+  }
+  .custom-section-a .col.second-column{
+    position: relative;
+    padding-right: 0;
+    padding-top: 0;
+    height: 550px;
+    top: -95px;
+  }
+  .custom-section-a .col.second-column .bg-border{
+    margin-left: 0;
+    position: absolute;
+    top: 0;
+    padding-top: 65px;
   }
 }
