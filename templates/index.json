@@ -64,7 +64,12 @@
     "b7677a5d-808e-494b-9ee3-5a40a13b78a5": {
       "type": "custom-section-a",
       "settings": {
-        "cards_to_show": 4
+        "heading": "TAKE THE CHALLENGE",
+        "sub_heading": "DO WHATEVER IT TAKES",
+        "description": "Ut eget massa aliquam dui pellentesque molestie. Nullam sodales nec odio ut aliquet. Donec pharetra gravida sem, eget iaculis tortor lobortis eget. Fusce efficitur non justo sed porta. Maecenas ex purus,",
+        "button_text": "LEARN MORE",
+        "button_link": "#",
+        "image": "shopify:\/\/shop_images\/pexels-yan-krukov-9072274_1.png"
       }
     }
   },
