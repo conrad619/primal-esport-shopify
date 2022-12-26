@@ -6,7 +6,6 @@
   max-width:var(--page-width);
   display:flex;
   margin:0px auto;
-  padding:0 50px;
   position:relative;
   justify-content:end;
 }
