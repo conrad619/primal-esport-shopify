@@ -12,7 +12,7 @@
 .custom-section-b .first-column{
   width:100%;
   position:absolute;
-  padding-left:30px;
+  padding-left:88px;
 }
 .custom-section-b .bg-border{
   border:1px solid #fff;
@@ -34,7 +34,7 @@
   clip-path: polygon(87% 0,100% 14%,100% 100%,0 100%,0 0);
 }
 .custom-section-b .col.second-column{
-  margin-right:90px;
+  margin-right:139px;
   width:100%;
   max-width:636px;
   padding-top:200px;
