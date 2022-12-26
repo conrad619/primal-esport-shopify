@@ -110,6 +110,9 @@
     margin-right: -60px;
     margin-left: 20px;
   }
+  .custom-card-collection .swiper-slide{
+    width:340px;
+  }
   .custom-card-collection .swiper-slide-content{
     height: 190px;
   }
