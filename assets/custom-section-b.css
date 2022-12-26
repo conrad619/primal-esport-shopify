@@ -22,12 +22,12 @@
   position:relative;
   padding-bottom: 44px;
   padding-right: 144px;
-  clip-path: polygon(87% 0, 100% 14%, 100% 100%, 0 100%, 0 0);
 }
 .custom-section-b .img-container{
+  clip-path: polygon(87% 0, 100% 14%, 100% 100%, 0 100%, 0 0);
   width:100%;
   position: relative;
-  bottom: 0;
+  top: -152px;
 }
 .custom-section-b .img-container .img-overlay{
   position:absolute;
