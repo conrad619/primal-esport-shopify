@@ -28,6 +28,7 @@
   width:100%;
   position: relative;
   top: -152px;
+  left:-1px;
 }
 .custom-section-b .img-container .img-overlay{
   position:absolute;
