@@ -51,8 +51,8 @@
   position: absolute;
 }
 .custom-section-a .col.second-column .bg-border{
-  border-top: 1px solid #1F2326;
-  border-right: 1px solid #1F2326;
+  border-top: 1px solid rgba(var(--color-base-text));
+  border-right: 1px solid rgba(var(--color-base-text));
   padding-top: 60px;
   display: flex;
   justify-content: end;
