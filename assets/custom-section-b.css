@@ -18,6 +18,13 @@
 .custom-section-b .img-container{
   clip-path: polygon(87% 0, 100% 14%, 100% 100%, 0 100%, 0 0);
 }
+.custom-section-b .col.second-column{
+  padding-right:90px;
+  width:100%;
+  max-width:636px;
+  padding-top:200px;
+  padding-bottom:90px;
+}
 .custom-section-b .col.second-column > *{
   margin:0;
 }
