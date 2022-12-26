@@ -119,4 +119,7 @@
   .custom-card-collection .swiper-view-all-text{
     font-size:24px;
   }
+  .custom-card-collection .swiper-navigation-buttons{
+    display:none;
+  }
 }
