@@ -1,5 +1,5 @@
 .custom-section-b {
-  margin:0 auto;
+  margin:0 auto 50px;
   background:rgba(var(--color-base-text));
 }
 .custom-section-b .row{
