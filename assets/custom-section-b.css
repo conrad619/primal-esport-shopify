@@ -32,6 +32,7 @@
 }
 .custom-section-b .img-container img{
   width:100%;
+  clip-path: polygon(87% 0,100% 14%,100% 100%,0 100%,0 0);
 }
 .custom-section-b .col.second-column{
   margin-right:90px;
