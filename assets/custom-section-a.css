@@ -129,4 +129,7 @@
     top: 0;
     padding-top: 65px;
   }
+  .custom-section-a .col.second-column .img-overlay{
+    background:none;
+  }
 }
