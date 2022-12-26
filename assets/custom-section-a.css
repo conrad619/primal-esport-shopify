@@ -33,6 +33,7 @@
   font-size:16px;
   font-family:'Montserrat';
   margin-bottom:60px;
+  color:rgba(var(--color-base-text));
 }
 .custom-section-a .col.first-column a{
   font-size:24px;
