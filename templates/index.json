@@ -71,11 +71,20 @@
         "button_link": "#",
         "image": "shopify:\/\/shop_images\/pexels-yan-krukov-9072274_1.png"
       }
+    },
+    "5d4cebb6-c5e1-4bd9-83da-f36db0fa6199": {
+      "type": "custom-section-b",
+      "settings": {
+        "heading": "",
+        "sub_heading": "",
+        "description": ""
+      }
     }
   },
   "order": [
     "1173e388-6730-415d-af55-cfa1db5cad97",
     "173d7a33-33b0-4a8a-b6e5-11c424997ff8",
-    "b7677a5d-808e-494b-9ee3-5a40a13b78a5"
+    "b7677a5d-808e-494b-9ee3-5a40a13b78a5",
+    "5d4cebb6-c5e1-4bd9-83da-f36db0fa6199"
   ]
 }
