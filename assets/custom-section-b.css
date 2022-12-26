@@ -1,12 +1,13 @@
 .custom-section-b {
-  max-width:var(--page-width);
   margin:0 auto;
   background:rgba(var(--color-base-text));
 }
 .custom-section-b .row{
+  max-width:var(--page-width);
   display:flex;
   margin:0px 50px;
   position:relative;
+  justify-content:end;
 }
 .custom-section-b .first-column{
   width:100%;
