@@ -122,4 +122,7 @@
   .custom-card-collection .swiper-navigation-buttons{
     display:none;
   }
+  .custom-card-collection .swiper-pagination{
+    top: calc(100% + 20px);
+  }
 }
