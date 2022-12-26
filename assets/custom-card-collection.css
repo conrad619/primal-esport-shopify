@@ -125,4 +125,8 @@
   .custom-card-collection .swiper-pagination{
     top: calc(100% + 20px);
   }
+  .custom-card-collection{
+    margin-top: -50px;
+    padding-bottom: 44px;
+  }
 }
