@@ -92,6 +92,7 @@
 }
 .custom-card-collection .swiper-pagination{
   top:100%;
+  left:-73px;
 }
 .custom-card-collection .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
   border-radius: 0;
