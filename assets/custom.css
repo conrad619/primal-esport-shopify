@@ -23,6 +23,7 @@ html {
   transition: .2s all;
   color: #fff;
   background: rgba(var(--color-base-text));
+  text-decoration:none;
 }
 .btn-a:hover{
   background: #fff;
@@ -35,6 +36,7 @@ html {
   border: 1px solid #fff;
   transition: .2s all;
   color: rgba(var(--color-base-text));
+  text-decoration:none;
 }
 .btn-b:hover{
   background: rgba(var(--color-base-text));
