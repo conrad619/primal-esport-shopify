@@ -6,6 +6,8 @@
   width:100%;
   margin:75px auto -75px;
   padding:35px 0;
+  background-repeat:no-repeat;
+  background-size:cover;
 }
 .custom-section-c .container{
   background: rgba(0, 0, 0, 0.6);
