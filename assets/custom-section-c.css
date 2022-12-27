@@ -4,7 +4,7 @@
 .custom-section-c .wrapper{
   max-width:1300px;
   width:100%;
-  margin:0 auto;
+  margin:75px auto -75px;
   padding:35px 0;
 }
 .custom-section-c .container{
