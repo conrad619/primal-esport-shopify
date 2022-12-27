@@ -95,6 +95,7 @@
     margin: 0;
     padding-left: 30px;
     overflow:hidden;
+    max-width:100%;
   }
   .custom-section-b .col.second-column h2{
     font-size:64px;
