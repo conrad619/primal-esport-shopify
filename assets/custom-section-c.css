@@ -2,6 +2,7 @@
   position:relative;
 }
 .custom-section-c .wrapper{
+  border:1px solid #fff;
   max-width:1300px;
   width:100%;
   margin:75px auto -75px;
