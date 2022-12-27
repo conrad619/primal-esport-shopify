@@ -1,7 +1,30 @@
 .custom-section-c{
   
 }
-
+.custom-section-c .wrapper{
+  max-width:1300px;
+  width:100%;
+  margin:0 auto;
+  padding:35px 0;
+}
+.custom-section-c .container{
+  background: rgba(0, 0, 0, 0.6);
+  max-width:900px;
+  width:100%;
+  margin:0 auto;
+  padding:35px;
+}
+.custom-section-c h2{
+  font-family:'Oswald';
+  font-size:64px;
+  font-weight:300;
+  margin-bottom:10px;
+}
+.custom-section-c a{
+  padding:20px 50px;
+  background:#1F2326;
+  border:1px solid #fff;
+}
 @media screen and (max-width: 750px) {
   .custom-section-c{
     

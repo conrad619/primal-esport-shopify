@@ -80,12 +80,22 @@
         "description": "Ut eget massa aliquam dui pellentesque molestie. Nullam sodales nec odio ut aliquet. Donec pharetra gravida sem, eget iaculis tortor lobortis eget. Fusce efficitur non justo sed porta. Maecenas ex purus,",
         "image": "shopify:\/\/shop_images\/Rectangle_19_1.png"
       }
+    },
+    "df4417da-9684-4bbc-96ea-eef94c88fe68": {
+      "type": "custom-section-c",
+      "settings": {
+        "heading": "GET READY FOR  BATTLE",
+        "button_text": "CLICK HERE",
+        "button_link": "#",
+        "image": "shopify:\/\/shop_images\/Rectangle_24.png"
+      }
     }
   },
   "order": [
     "1173e388-6730-415d-af55-cfa1db5cad97",
     "173d7a33-33b0-4a8a-b6e5-11c424997ff8",
     "b7677a5d-808e-494b-9ee3-5a40a13b78a5",
-    "5d4cebb6-c5e1-4bd9-83da-f36db0fa6199"
+    "5d4cebb6-c5e1-4bd9-83da-f36db0fa6199",
+    "df4417da-9684-4bbc-96ea-eef94c88fe68"
   ]
 }
