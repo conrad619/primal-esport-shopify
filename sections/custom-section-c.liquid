@@ -1,32 +1,21 @@
 
-{{ 'custom-section-b.css' | asset_url | stylesheet_tag }}
+{{ 'custom-section-c.css' | asset_url | stylesheet_tag }}
 
-<div class="custom-section-b">
-
-  <div class="row">
-
-    
-    <div class="col first-column">
-      <div class="bg-border">
-        <div class="img-container">
-          <div class="img-overlay"></div>
-          <img src="{{ section.settings.image | image_url }}"/>
-        </div>
-      </div>
+<div class="custom-section-c">
+<!--   
+  wrapper
+    containenr
+      heading
+      button
+  
+  -->
+  <div class="wrapper">
+    <div class="container" style="background:url({{ section.settings.image | image_url }})">
+      <h2>{{ section.settings.heading }}</h2>
+      <a href="{{ section.settings.button_link }}">
+        {{ section.settings.button_text }}
+      </a>
     </div>
-    
-    <div class="col second-column">
-      <h2>
-        {{ section.settings.heading }}
-      </h2>
-      <h3>{{ section.settings.sub_heading }}</h3>
-      <p>
-        {{ section.settings.description }}
-      </p>
-      <div class="bg-border-mobile"></div>
-    </div>
-
-    
   </div>
 </div>
 
