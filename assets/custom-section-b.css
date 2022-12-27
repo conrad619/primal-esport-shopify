@@ -76,6 +76,17 @@
 }
 
 @media screen and (max-width: 750px) {
+  .custom-section-b .first-column{
+    padding-left:0;
+  }
+  .custom-section-b .bg-border{
+    padding-right: 0;
+    height: 297px;
+    border:0;
+  }
+  .custom-section-b .img-container .img-overlay{
+    background:linear-gradient(0deg,#1F2326 6.43%,rgba(31,35,38,0) 28.64%);
+  }
   .custom-section-b .col.second-column h2{
     font-size:64px;
     margin-bottom:48px;
