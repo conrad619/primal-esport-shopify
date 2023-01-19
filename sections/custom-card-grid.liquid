@@ -1,7 +1,12 @@
 {{ 'custom-card-grid.css' | asset_url | stylesheet_tag }}
 
 
-<div class="custom-card-grid color-{{ section.settings.color_scheme }}" style="background-image:url({{ section.settings.background_image | image_url }})">
+<div class="custom-card-grid color-{{ section.settings.color_scheme }}" 
+  style="background-image: 
+  url(https://cdn.shopify.com/s/files/1/0662/0571/2618/files/upper-grid-bg.svg?v=1674164152),
+  url(https://cdn.shopify.com/s/files/1/0662/0571/2618/files/bottom-grid-bg.svg?v=1674164152);
+  background-repeat: no-repeat;
+  background-position: bottom right, top left;">
   <div class="wrapper">
   {%- for block in section.blocks -%}
     <div class="card">
@@ -35,21 +40,6 @@
         "step": 1,
         "default": 4,
         "label": "cards to show"
-      },
-      {
-        "type": "image_picker",
-        "id": "background_image",
-        "label": "Banner Image"
-      },
-      {
-        "type": "image_picker",
-        "id": "background_logo",
-        "label": "Banner logo"
-      },
-      {
-        "type": "image_picker",
-        "id": "background_team",
-        "label": "Banner team"
       }
     ],
     "blocks": [
