@@ -2,8 +2,7 @@
   background:#000;
   display:flex;
   flex-wrap:wrap;
-  margin-top:70px;
-  margin-bottom:170px;
+  margin:70px 100px 170px;
 }
 .custom-card-grid .card{
   background:#fff;
