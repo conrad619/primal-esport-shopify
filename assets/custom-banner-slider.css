@@ -108,7 +108,7 @@
 .custom-banner-slider .swiper-wrapper{
   padding-bottom:29px;
 }
-
+/* clip-path: polygon(0 0, 0 10%, 12% 0, 17% 0, 17% 0, 0 14%, 0 100%, 89% 100%, 100% 91%, 100% 0); */
 @media screen and (max-width: 750px) {
   
   .custom-banner-slider .swiper-slide-title{
