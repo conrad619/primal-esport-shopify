@@ -92,6 +92,17 @@
   -webkit-text-stroke-color: #fff;
   margin-bottom:25px;
 }
+.custom-banner-slider .swiper-pagination-bullet{
+  color:#000;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+}
+.custom-banner-slider .swiper-pagination-bullet-active{
+  color:transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+  
+}
 
 
 @media screen and (max-width: 750px) {
