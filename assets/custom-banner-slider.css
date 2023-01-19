@@ -103,4 +103,7 @@
     font-size:55px;
     line-height:55px;
   }
+  .custom-banner-slider .swiper-slide-img{
+    width:330px;
+  }
 }
