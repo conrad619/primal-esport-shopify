@@ -19,12 +19,12 @@
 .custom-card-grid .card-arrow{
   width:38px;
   height:44px;
-  clip-path: polygon(0 0, 0 11%, 13% 0);
   background:#fff;
   position:absolute;
   top:0;
   left:0;
-  dispay:block;
+  display:block;
+  clip-path: polygon(0 0, 0 100%, 100% 0);
 }
 .custom-card-grid .card-wrapper{
   background:#fff;
