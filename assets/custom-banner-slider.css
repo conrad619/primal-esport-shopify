@@ -1,5 +1,6 @@
 .custom-banner-slider{
   position:relative;
+  overflow:hidden;
 }
 .custom-banner-slider .page-title-container{
   position: absolute;
