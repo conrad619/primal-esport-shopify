@@ -33,7 +33,9 @@
       ],
       "settings": {
         "cards_to_show": 4,
-        "background_image": "shopify:\/\/shop_images\/003e6aae-4c42-4f4c-ba6d-a6d054ae3b9a_rw_1920-e1645080331860_1.png"
+        "background_image": "shopify:\/\/shop_images\/003e6aae-4c42-4f4c-ba6d-a6d054ae3b9a_rw_1920-e1645080331860_1.png",
+        "background_logo": "shopify:\/\/shop_images\/banner-logo.png",
+        "background_team": "shopify:\/\/shop_images\/group.png"
       }
     }
   },
