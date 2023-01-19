@@ -2,43 +2,18 @@
 
 
 <div class="custom-card-grid color-{{ section.settings.color_scheme }}" style="background-image:url({{ section.settings.background_image | image_url }})">
-  <img src="{{ section.settings.background_logo | image_url }}" class="background-logo"/>
-  <img src="{{ section.settings.background_team | image_url }}" class="background-team">
-  <div class="page-title-container">
-    <h2 class="page-title-second">ROSTER</h2>
-    <h1 class="page-title">ROSTER</h1>
-  </div>
-  <!-- Slider main container -->
-  <div class="swiper-wrapper">
-    <div class="swiper custom-card-grid-swiper">
-      <!-- Additional required wrapper -->
-      <div class="swiper-wrapper">
-        <!-- Slides -->
-        {%- for block in section.blocks -%}
-          <div class="swiper-slide">
-            <div class="swiper-slide-content">
-<!--               <a href="{{ block.settings.link }}"> -->
-                <div class="bg-overlay"></div>
-                <img src="{{ block.settings.image | image_url }}" class="swiper-slide-img" />
-                <div class="swiper-slide-title-container">
-                  <h2 class="swiper-slide-title-second">{{ block.settings.heading }}</h2>
-                  <h2 class="swiper-slide-title">{{ block.settings.heading }}</h2>
-                </div>
-<!--               </a> -->
+  {%- for block in section.blocks -%}
+      <div class="card">
+        <div class="card-content">
+          <a href="{{ block.settings.card_link }}">
+            <img src="{{ block.settings.card_image | image_url }}" class="card-img" />
+            <div class="card-name-container">
+              <h2 class="card-name">{{ block.settings.card_name }}</h2>
             </div>
-          </div>
-        {%- endfor -%}
+          </a>
+        </div>
       </div>
-  
-    <div class="swiper-navigation-buttons">
-      <div class="swiper-custom-button-next">
-        <img src="https://cdn.shopify.com/s/files/1/0662/0571/2618/files/banner-slider-arrow.svg?v=1671664229">
-      </div>
-    </div>
-    </div>
-    <div class="swiper-pagination"></div>
-    <!-- If we need navigation buttons -->
-  </div>
+    {%- endfor -%}
 
 </div>
 
@@ -76,20 +51,20 @@
     "blocks": [
       {
         "name": "Slide",
-        "type": "slide",
+        "type": "grid",
         "settings": [
           {
             "type": "image_picker",
-            "id": "image",
+            "id": "card_image",
             "label": "Image"
           }, {
             "type": "text",
-            "id": "heading",
+            "id": "card_name",
             "default": "Slide title",
             "label": "Slide Title"
           }, {
             "type": "url",
-            "id": "link",
+            "id": "card_link",
             "label": "Slide Url"
           }
         ]
@@ -101,35 +76,10 @@
         "name": "Custom Banner Slide",
         "blocks": [
           {
-            "type": "slide"
+            "type": "grid"
           }
         ]
       }
     ]
   }
 {% endschema %}
-
-<script>
-  $(document).ready(function() {
-    const swiper = new Swiper('.swiper.custom-card-grid-swiper', {
-      slidesPerView: 'auto',
-      spaceBetween: 20,
-      loop: true,
-      rtl: true,
-      pagination: {
-        el: '.swiper-pagination'
-      },
-      navigation: {
-        nextEl: '.custom-card-grid .swiper-custom-button-next',
-        prevEl: '.custom-card-grid .swiper-custom-button-prev'
-      },
-      breakpoints: {
-        750: {
-          spaceBetween: 50,
-        }
-      }
-    })
-
-  
-  })
-</script>
