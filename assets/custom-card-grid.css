@@ -17,7 +17,14 @@
   height: calc(100% - 6px);
   top: 2px;
 }
+.custom-card-grid .card-name-container{
+  position:absolute;
+  left:23px;
+  bottom:23px;
+}
 .custom-card-grid .card-name{
   margin: 0;
-color: #fff;
+  color: #fff;
+  font-size:48px;
+  font-weight:700;
 }
