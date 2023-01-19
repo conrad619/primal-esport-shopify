@@ -13,6 +13,7 @@
   font-family: Montserrat;
   font-weight: 700;
   margin: 0;
+  margin-top:20px;
 }
 .custom-banner-slider .page-title-second{
   font-size: 64px;
@@ -22,6 +23,7 @@
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
   margin: 0;
+  margin-right:35px;
 }
 .custom-banner-slider .background-logo{
   top:0;
