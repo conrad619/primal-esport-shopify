@@ -36,6 +36,8 @@
   margin: 0;
   font-weight: 700;
   text-transform: uppercase;
+  position:relative;
+  z-index:1;
 }
 
 .custom-banner-slider .swiper-slide-title-second{
@@ -47,5 +49,5 @@
   position:absolute;
   color:transparent;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-color: #fff;
 }
