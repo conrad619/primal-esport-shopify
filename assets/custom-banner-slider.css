@@ -51,6 +51,7 @@
   text-transform: uppercase;
   position:relative;
   z-index:1;
+  margin-bottom:25px;
 }
 
 .custom-banner-slider .swiper-slide-title-second{
@@ -63,4 +64,5 @@
   color:transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
+  margin-bottom:25px;
 }
