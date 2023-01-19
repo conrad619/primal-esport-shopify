@@ -7,10 +7,11 @@
 
 .custom-banner-slider .swiper-slide{
   width:100%;
+  min-height:580px;
 }
 .custom-banner-slider .swiper-slide-content{
   position:relative;
-  min-height:580px;
+  height:100%;
   width:100%;
 }
 
