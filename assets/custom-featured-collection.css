@@ -55,7 +55,7 @@
   height: 575px;
   position:relative;
   background:#fff;
-  clip-path: polygon(15% 0, 100% 0%, 100% 100%, 0 100%, 0 12%);
+  clip-path: polygon(15% 0,100% 0%,100% 100%,0 100%,0 9%);
 }  
 .custom-featured-collection .swiper-slide-img{
   position:absolute;
