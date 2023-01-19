@@ -105,5 +105,6 @@
   }
   .custom-banner-slider .swiper-slide-img{
     width:330px;
+    right:0;
   }
 }
