@@ -37,3 +37,18 @@
   font-weight: 700;
   text-transform: uppercase;
 }
+
+.custom-banner-slider .swiper-slide-title-second{
+  font-size: 150px;
+  line-height: 150px;
+  margin: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  position:absolute;
+  color:transparent;
+  text-shadow:
+   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff;
+}
