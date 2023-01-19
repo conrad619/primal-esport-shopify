@@ -57,3 +57,13 @@
   font-size:48px;
   font-weight:700;
 }
+
+@media screen and (max-width: 750px) {
+  .custom-card-grid .wrapper{
+    gap:35px;
+  }
+  .custom-card-grid .card{
+    width: calc(50% - 18px);
+  }
+
+}
