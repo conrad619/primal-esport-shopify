@@ -98,11 +98,12 @@
   border: 1px solid #000;
 }
 .custom-banner-slider .swiper-pagination-bullet-active{
-  color:transparent;
+  background:#000;
 }
 .custom-banner-slider .swiper-pagination{
   bottom:0;
   background:#fff;
+  opacity:1;
 }
 
 
