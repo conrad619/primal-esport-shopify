@@ -7,6 +7,10 @@
 .custom-card-grid .card{
   background:#fff;
   clip-path: polygon(12% 0, 0 10%, 0 100%, 89% 100%, 100% 90%, 100% 0);
+  max-width:366px;
+  max-height:514px;
+  width:100%;
+  height:100%;
 }
 .custom-card-grid .card-content{
   background: radial-gradient(50% 50% at 50% 50%, #9F03A3 0%, rgba(126, 44, 207, 0.37) 43.23%, rgba(0, 209, 255, 0) 100%), #000000;
