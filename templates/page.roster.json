@@ -32,7 +32,8 @@
         "449c4d02-cc74-4d4b-b941-323e926559e3"
       ],
       "settings": {
-        "cards_to_show": 4
+        "cards_to_show": 4,
+        "bg_image": "shopify:\/\/shop_images\/003e6aae-4c42-4f4c-ba6d-a6d054ae3b9a_rw_1920-e1645080331860_1.png"
       }
     }
   },
