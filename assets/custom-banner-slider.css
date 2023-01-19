@@ -24,6 +24,7 @@
   -webkit-text-stroke-color: #fff;
   margin: 0;
   margin-right:35px;
+  position:absolute;
 }
 .custom-banner-slider .background-logo{
   top:0;
