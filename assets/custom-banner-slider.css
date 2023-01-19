@@ -1,3 +1,8 @@
+.custom-banner-slider .background-logo{
+  top:0;
+  position:absolute;
+  left:100px;
+}
 .custom-banner-slider .background-team{
   bottom:0;
   position:absolute;
