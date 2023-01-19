@@ -17,10 +17,11 @@
   background: radial-gradient(50% 50% at 50% 50%, #9F03A3 0%, rgba(126, 44, 207, 0.37) 43.23%, rgba(0, 209, 255, 0) 100%), #000000;
   left: 24px;
   position: relative;
-  clip-path: polygon(12% 0, 0 10%, 0 100%, 89% 100%, 100% 90%, 100% 0);
+  clip-path: polygon(12% 0, 0 10%, 0 100%, 88.5% 100%, 100% 90%, 100% 0);
   width: calc(100% - 26px);
-  height: calc(100% - 6px);
+  height: calc(100% - 4px);
   top: 2px;
+  overflow: hidden;
 }
 .custom-card-grid .card-name-container{
   position:absolute;
