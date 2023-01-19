@@ -2,7 +2,7 @@
 
 
 <div class="custom-banner-slider color-{{ section.settings.color_scheme }}" style="background-image:url({{ section.settings.background_image | image_url }})">
-
+  <img src="https://cdn.shopify.com/s/files/1/0662/0571/2618/files/group.png?v=1674141918" class="background-team">
   <!-- Slider main container -->
   <div class="swiper-wrapper">
     <div class="swiper custom-banner-slider-swiper">
@@ -16,6 +16,7 @@
                 <div class="bg-overlay"></div>
                 <img src="{{ block.settings.image | image_url }}" class="swiper-slide-img" />
                 <div class="swiper-slide-title-container">
+                  <h2 class="swiper-slide-title-second">{{ block.settings.heading }}</h2>
                   <h2 class="swiper-slide-title">{{ block.settings.heading }}</h2>
                 </div>
 <!--               </a> -->
