@@ -91,3 +91,16 @@
   -webkit-text-stroke-color: #fff;
   margin-bottom:25px;
 }
+
+
+@media screen and (max-width: 750px) {
+  
+  .custom-banner-slider .swiper-slide-title{
+    font-size:48px;
+    line-height:48px;
+  }
+  .custom-banner-slider .swiper-slide-title-second{
+    font-size:55px;
+    line-height:55px;
+  }
+}
