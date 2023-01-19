@@ -5,6 +5,9 @@
   color:#fff;
 }
 
+.custom-banner-slider .swiper-slide{
+  width:100%;
+}
 .custom-banner-slider .swiper-slide-content{
   position:relative;
   min-height:580px;
