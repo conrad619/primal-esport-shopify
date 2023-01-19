@@ -38,10 +38,30 @@
         "background_logo": "shopify:\/\/shop_images\/PRIMAL_LOGO_V1_1_4.png",
         "background_team": "shopify:\/\/shop_images\/group.png"
       }
+    },
+    "3f51b329-1bab-4ad6-9157-36c9964980cf": {
+      "type": "custom-card-grid",
+      "blocks": {
+        "template--16704604733674__3f51b329-1bab-4ad6-9157-36c9964980cf-1674150555214c70a4-0": {
+          "type": "grid",
+          "settings": {
+            "card_image": "shopify:\/\/shop_images\/pngwing_2.png",
+            "card_name": "Slide title",
+            "card_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16704604733674__3f51b329-1bab-4ad6-9157-36c9964980cf-1674150555214c70a4-0"
+      ],
+      "settings": {
+        "cards_to_show": 4
+      }
     }
   },
   "order": [
     "main",
-    "baf429c1-2e1c-4f81-b629-a37c32d695bf"
+    "baf429c1-2e1c-4f81-b629-a37c32d695bf",
+    "3f51b329-1bab-4ad6-9157-36c9964980cf"
   ]
 }
