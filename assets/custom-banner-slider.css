@@ -96,6 +96,7 @@
   color:#000;
   background: #fff;
   border: 1px solid #000;
+  opacity:1;
 }
 .custom-banner-slider .swiper-pagination-bullet-active{
   background:#000;
@@ -103,7 +104,6 @@
 .custom-banner-slider .swiper-pagination{
   bottom:0;
   background:#fff;
-  opacity:1;
 }
 
 
