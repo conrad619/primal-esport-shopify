@@ -5,6 +5,7 @@
 .custom-banner-slider .swiper-slide-content{
   position:relative;
   min-height:580px;
+  width:100%;
 }
 
 .custom-banner-slider .swiper-slide-img{
