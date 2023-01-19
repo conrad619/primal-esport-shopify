@@ -1,12 +1,124 @@
+{{ 'custom-banner-slider.css' | asset_url | stylesheet_tag }}
+
+
+<div class="custom-banner-slider color-{{ section.settings.color_scheme }}" style="background-image:url({{ section.settings.background_image | image_url }})">
+
+  <!-- Slider main container -->
+  <div class="swiper-wrapper">
+    <div class="swiper custom-banner-slider-swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        {%- for block in section.blocks -%}
+          <div class="swiper-slide">
+            <div class="swiper-slide-content">
+              <a href="{{ block.settings.link }}">
+                <div class="bg-overlay"></div>
+                <img src="{{ block.settings.image | image_url }}" class="swiper-slide-img" />
+                <div class="swiper-slide-title-container">
+                  <h2 class="swiper-slide-title">{{ block.settings.heading }}</h2>
+                </div>
+              </a>
+            </div>
+          </div>
+        {%- endfor -%}
+      </div>
+  
+      <div class="swiper-nav-view-container">
+        {%- if section.settings.show_view_all and more_in_collection -%}
+          <div class="swiper-view-all">
+            <a href="" class="swiper-view-all-text">
+              View All
+            </a>
+          </div>
+        {%- endif -%}
+      </div>
+  
+    </div>
+    <div class="swiper-pagination"></div>
+    <!-- If we need navigation buttons -->
+    <div class="swiper-navigation-buttons">
+      <div class="swiper-custom-button-next">
+        <img src="https://cdn.shopify.com/s/files/1/0662/0571/2618/files/banner-slider-arrow.svg?v=1671664229">
+      </div>
+    </div>
+  </div>
+
+</div>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Custom Card Collection",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+      {
+        "type": "range",
+        "id": "cards_to_show",
+        "min": 2,
+        "max": 12,
+        "step": 1,
+        "default": 4,
+        "label": "cards to show"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Slide",
+        "type": "slide",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }, {
+            "type": "text",
+            "id": "heading",
+            "default": "Slide title",
+            "label": "Slide Title"
+          }, {
+            "type": "url",
+            "id": "link",
+            "label": "Slide Url"
+          }
+        ]
+      }
+
+    ],
+    "presets": [
+      {
+        "name": "Custom Card Collection",
+        "blocks": [
+          {
+            "type": "slide"
+          }
+        ]
+      }
+    ]
   }
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
+<script>
+  $(document).ready(function() {
+    const swiper = new Swiper('.swiper.custom-banner-slider-swiper', {
+      slidesPerView: 'auto',
+      spaceBetween: 20,
+      loop: true,
+      rtl: true,
+      pagination: {
+        el: '.swiper-pagination'
+      },
+      navigation: {
+        nextEl: '.custom-banner-slider .swiper-custom-button-next',
+        prevEl: '.custom-banner-slider .swiper-custom-button-prev'
+      },
+      breakpoints: {
+        750: {
+          spaceBetween: 50,
+        }
+      }
+    })
 
-{% javascript %}
-{% endjavascript %}
+  
+  })
+</script>
