@@ -46,9 +46,6 @@
   text-transform: uppercase;
   position:absolute;
   color:transparent;
-  text-shadow:
-   -1px -1px 0 #fff,  
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-     1px 1px 0 #fff;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
