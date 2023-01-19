@@ -2,10 +2,26 @@
   position:relative;
 }
 .custom-banner-slider .page-title-container{
-  
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 .custom-banner-slider .page-title{
-  
+  color: #fff;
+  font-size: 64px;
+  font-family: Montserrat;
+  font-weight: 700;
+  margin: 0;
+}
+.custom-banner-slider .page-title-second{
+  font-size: 64px;
+  font-family: Montserrat;
+  font-weight: 700;
+  color:transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+  margin: 0;
 }
 .custom-banner-slider .background-logo{
   top:0;
