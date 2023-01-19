@@ -112,8 +112,8 @@
     width:100%;
   }
   .custom-banner-slider .background-logo{
-    top:0;
-    left: -50%;
-    width: 100%;
+    top: 0;
+    left: 0;
+    transform: translateX(-50%);
   }
 }
