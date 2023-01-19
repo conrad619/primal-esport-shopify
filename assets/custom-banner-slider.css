@@ -1,3 +1,6 @@
+.custom-banner-slider .swiper{
+  width:100%;
+}
 .custom-banner-slider .swiper-slide-title{
   color:#fff;
 }
