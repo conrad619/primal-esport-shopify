@@ -4,7 +4,7 @@
 .custom-card-grid .card{
   max-width:366px;
   max-height:514px;
-  width:33%;
+  width:33.33%;
   position:relative;
 }
 .custom-card-grid .wrapper{
