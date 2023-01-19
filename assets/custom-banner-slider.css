@@ -110,4 +110,9 @@
   .custom-banner-slider .background-team{
     width:100%;
   }
+  .custom-banner-slider .background-logo{
+    top:0;
+    left: -50%;
+    width: 100%;
+  }
 }
