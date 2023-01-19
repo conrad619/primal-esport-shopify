@@ -1,6 +1,12 @@
 .custom-card-grid{
   background:#000;
 }
+.custom-card-grid .card{
+  max-width:366px;
+  max-height:514px;
+  width:33%;
+  position:relative;
+}
 .custom-card-grid .wrapper{
   display:flex;
   flex-wrap:wrap;
@@ -9,7 +15,6 @@
   max-width:1340px;
   width:100%;
   gap:70px;
-  position:relative;
 }
 .custom-card-grid .card-arrow{
   width:38px;
@@ -20,11 +25,6 @@
   top:0;
   left:0;
   dispay:block;
-}
-.custom-card-grid .card{
-  max-width:366px;
-  max-height:514px;
-  width:33%;
 }
 .custom-card-grid .card-wrapper{
   background:#fff;
