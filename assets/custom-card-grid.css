@@ -3,6 +3,8 @@
 }
 .custom-card-grid .card-tile{
   witdh:33.33%;
+  padding:0 20px;
+  margin-bottom:20px;
 }
 .custom-card-grid .card{
   max-height:514px;
