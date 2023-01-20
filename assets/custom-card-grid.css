@@ -62,11 +62,8 @@
 }
 
 @media screen and (max-width: 750px) {
-  .custom-card-grid .wrapper{
-    gap:35px;
-  }
-  .custom-card-grid .card{
-    width: calc(50% - 18px);
+  .custom-card-grid .card-tile{
+    width: 50%;
   }
   .custom-card-grid .card-name{
     font-size:30px;
