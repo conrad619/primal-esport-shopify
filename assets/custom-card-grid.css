@@ -7,7 +7,6 @@
 .custom-card-grid .card{
   max-height:514px;
   width: 100%;
-  padding:0 20px;
   position:relative;
 }
 .custom-card-grid .wrapper{
@@ -17,7 +16,6 @@
   margin:0 auto;
   max-width:1340px;
   width:100%;
-  gap:70px;
 }
 .custom-card-grid .card-arrow{
   width: 9.5%;
