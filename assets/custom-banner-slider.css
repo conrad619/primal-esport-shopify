@@ -117,6 +117,7 @@
 }
 .custom-banner-slider .swiper-navigation-buttons > div{
   cursor:pointer;
+  margin:10px 50px;
 }
 .custom-banner-slider .swiper-custom-button-next .arrow-enabled{
 }
