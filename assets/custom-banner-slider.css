@@ -106,10 +106,6 @@
   bottom:0;
   background:#fff;
 }
-.custom-banner-slider .swiper-wrapper{
-  padding-bottom:29px;
-}
-
 .custom-banner-slider .swiper-navigation-buttons{
   position: absolute;
   bottom: 0;
