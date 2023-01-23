@@ -143,16 +143,16 @@
 
      swiper.on('slideChange', function() {
         console.log('slide changed');
-        $('.custom-featured-collection .swiper-navigation-buttons')
+        $('.custom-banner-slider .swiper-navigation-buttons')
           .find('.arrow-enabled')
           .css({'display': 'block'})
-          $('.custom-featured-collection .swiper-navigation-buttons')
+          $('.custom-banner-slider .swiper-navigation-buttons')
           .find('.arrow-disabled')
           .css({'display': 'none'})
-        $('.custom-featured-collection .swiper-button-disabled')
+        $('.custom-banner-slider .swiper-button-disabled')
         .find('.arrow-enabled')
         .css({'display': 'none'})
-      $('.custom-featured-collection .swiper-button-disabled')
+      $('.custom-banner-slider .swiper-button-disabled')
       .find('.arrow-disabled')
       .css({'display': 'block'})
     });
