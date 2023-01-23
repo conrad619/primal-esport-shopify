@@ -117,6 +117,7 @@
   display: flex;
   justify-content: space-between;
   z-index:50;
+  bottom: 35px;
 }
 .custom-banner-slider .swiper-navigation-buttons > div{
   cursor:pointer;
