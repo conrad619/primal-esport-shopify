@@ -115,6 +115,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  z-index:50;
 }
 .custom-banner-slider .swiper-navigation-buttons > div{
   cursor:pointer;
