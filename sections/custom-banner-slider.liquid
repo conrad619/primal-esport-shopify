@@ -5,8 +5,8 @@
   <img src="{{ section.settings.background_logo | image_url }}" class="background-logo"/>
   <img src="{{ section.settings.background_team | image_url }}" class="background-team">
   <div class="page-title-container">
-    <h2 class="page-title-second">ROSTER</h2>
-    <h1 class="page-title">ROSTER</h1>
+    <h2 class="page-title-second">{{ section.settings.heading }}</h2>
+    <h1 class="page-title">{{ section.settings.heading }}</h1>
   </div>
   <!-- Slider main container -->
   <div class="swiper-wrapper">
@@ -67,6 +67,12 @@
         "step": 1,
         "default": 4,
         "label": "cards to show"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "default": "title",
+        "label": "Title"
       },
       {
         "type": "image_picker",
