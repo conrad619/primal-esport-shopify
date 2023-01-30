@@ -2,7 +2,7 @@
 {{ 'custom-hero-banner.css' | asset_url | stylesheet_tag }}
 
 <div class="custom-hero-banner">
-  <div class="banner-bg"></div>
+  <div class="banner-bg" style="background-image:url({{ section.settings.bg_image }})"></div>
   <div class="banner-bg-overlay"></div>
   <div class="row">
     <div class="col first-column">
@@ -20,7 +20,7 @@
     <div class="col second-column">
       <div class="bg-box"></div>
       <div class="img-container">
-        <img src="{{ section.settings.image | image_url }}"/>
+        <img src="{{ section.settings.product_image | image_url }}"/>
       </div>
     </div>
   </div>
@@ -32,6 +32,11 @@
     "tag": "section",
     "class": "section",
     "settings": [
+      {
+        "type": "image_picker",
+        "id": "bg_image",
+        "label": "Background Image"
+      },
       {
         "type": "text",
         "id": "heading",
@@ -59,8 +64,8 @@
       },
       {
         "type": "image_picker",
-        "id": "image",
-        "label": "Image"
+        "id": "product_image",
+        "label": "Product Image"
       }
     ],
     "presets": [
