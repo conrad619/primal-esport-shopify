@@ -23,9 +23,11 @@
       <a href="{{ section.settings.button_link }}" class="btn btn-a">{{ section.settings.button_text }}</a>
     </div>
     <div class="col second-column">
-      <div class="bg-box"></div>
-      <div class="img-container">
-        <img src="{{ section.settings.product_image | image_url }}"/>
+      <div class="product-img-container">
+        <div class="bg-box"></div>
+        <div class="img-container">
+          <img src="{{ section.settings.product_image | image_url }}"/>
+        </div>
       </div>
     </div>
   </div>
