@@ -45,6 +45,6 @@
   position:absolute;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
-  margin:10px;
+  margin:-10px;
   color:transparent;
 }
