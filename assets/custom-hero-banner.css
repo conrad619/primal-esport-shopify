@@ -81,7 +81,7 @@
   flex-direction:column;
 }
 .custom-hero-banner .second-column{
-  
+  position:relative;
 }
 .custom-hero-banner .bg-box{
   display:block;
@@ -90,8 +90,10 @@
   height:373px;
   background:#717177;
   position:absolute;
+  z-index:-1;
+  left:54px;
 }
-.custom-hero-banner .image-container{
+.custom-hero-banner .img-container{
   height: 614px;
   position: absolute;
   bottom: 0;
