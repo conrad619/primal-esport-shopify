@@ -34,12 +34,16 @@
 .custom-hero-banner .col{
   width:50%;
 }
+.custom-hero-banner .product-title-container{
+  margin-bottom:2px;
+}
 .custom-hero-banner .product-title{
   font-size:48px;
   line-height:55px;
   font-weight:700;
   color:#fff;
   font-family:"Oswald";
+  margin:0;
 }
 .custom-hero-banner .product-title-outline{
   position:absolute;
