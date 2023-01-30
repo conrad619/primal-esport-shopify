@@ -30,9 +30,11 @@
   width:100%;
   margin:0 auto;
   display:flex;
+  height:100%;
 }
 .custom-hero-banner .col{
   width:50%;
+  height:100%;
 }
 .custom-hero-banner .product-title-container{
   margin-bottom:20px;
