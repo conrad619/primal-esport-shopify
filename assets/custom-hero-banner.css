@@ -48,3 +48,13 @@
   margin:-10px;
   color:transparent;
 }
+.custom-hero-banner .description{
+  font-size:14px;
+  font-family:"Montserrat";
+  line-height:20px;
+}
+.custom-hero-banner .price{
+  font-size:24px;
+  font-family:"Montserrat";
+  font-weight:700;
+}
