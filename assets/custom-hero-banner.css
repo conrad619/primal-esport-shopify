@@ -86,9 +86,10 @@
   position:relative;
   padding-top:20px;
 }
-.custom-hero-banner .product-image-container{
-  position:relative;
+.custom-hero-banner .product-img{
+  position:absolute;
   height: 614px;
+  bottom:0;
 }
 .custom-hero-banner .bg-box{
   display:block;
