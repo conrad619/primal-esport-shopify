@@ -80,3 +80,19 @@
   align-items:start;
   flex-direction:column;
 }
+.custom-hero-banner .second-column{
+  
+}
+.custom-hero-banner .bg-box{
+  display:block;
+  border-radius:20px;
+  width:345px;
+  height:373px;
+  background:#717177;
+  position:absolute;
+}
+.custom-hero-banner .image-container{
+  height: 614px;
+  position: absolute;
+  bottom: 0;
+}
