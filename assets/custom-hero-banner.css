@@ -35,7 +35,7 @@
   width:50%;
 }
 .custom-hero-banner .product-title-container{
-  margin-bottom:2px;
+  margin-bottom:20px;
 }
 .custom-hero-banner .product-title{
   font-size:48px;
@@ -57,13 +57,14 @@
   font-family:"Montserrat";
   line-height:20px;
   color:#fff;
+  margin-bottom:20px;
 }
 .custom-hero-banner .price{
   font-size:24px;
   font-family:"Montserrat";
   font-weight:700;
   color:#fff;
-  margin-bottom:40px;
+  margin-bottom:30px;
 }
 .custom-hero-banner .btn{
   font-size:24px;
