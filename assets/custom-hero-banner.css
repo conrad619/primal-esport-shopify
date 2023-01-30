@@ -1,0 +1,25 @@
+.custom-hero-banner{
+  height:645px;
+  width:100%;
+  position:relative;
+}
+.custom-hero-banner .banner-bg{
+  position:absolute;
+  width:100%;
+  height:100%;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  left:0;
+  top:0;
+  display:block;
+}
+.custom-hero-banner .banner-bg-overlay{
+  position:absolute;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  background-color:#00000033;
+  display:block;
+}
