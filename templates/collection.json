@@ -1,1 +1,47 @@
-{"sections":{"banner":{"type":"main-collection-banner","settings":{"show_collection_description":true,"show_collection_image":false,"color_scheme":"background-1"}},"product-grid":{"type":"main-collection-product-grid","settings":{"products_per_page":16,"columns_desktop":4,"image_ratio":"adapt","show_secondary_image":false,"show_vendor":false,"show_rating":false,"enable_filtering":true,"enable_sorting":true,"columns_mobile":"2","padding_top":36,"padding_bottom":36}}},"order":["banner","product-grid"]}
+{
+  "sections": {
+    "62d49086-4d51-41f0-a6a0-6b804c3c4f18": {
+      "type": "custom-hero-banner",
+      "settings": {
+        "bg_image": "shopify:\/\/shop_images\/Gluttony_Unisex_Hoodie9_2_1.png",
+        "heading": "Primal 2 Unisex Pullover Hoodie",
+        "description": "Ut eget massa aliquam dui pellentesque molestie. Nullam sodales nec odio ut aliquet. Donec pharetra gravida sem, eget iaculis tortor lobortis eget. Fusce efficitur non justo sed porta. Maecenas ex purus,",
+        "price": "$65.00",
+        "button_text": "BUY NOW",
+        "button_link": "#",
+        "product_image": "shopify:\/\/shop_images\/Artboard_1_copy_4_1_1.png"
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "62d49086-4d51-41f0-a6a0-6b804c3c4f18",
+    "banner",
+    "product-grid"
+  ]
+}
