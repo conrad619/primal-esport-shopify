@@ -13,6 +13,7 @@
   left:0;
   top:0;
   display:block;
+  z-index:-1;
 }
 .custom-hero-banner .banner-bg-overlay{
   position:absolute;
@@ -22,4 +23,5 @@
   top:0;
   background-color:#00000080;
   display:block;
+  z-index:0;
 }
