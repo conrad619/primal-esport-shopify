@@ -93,7 +93,7 @@
   border-radius:20px;
   width:345px;
   height:373px;
-  background:#717177;
+  background: radial-gradient(55.34% 60.34% at 50.21% 54.66%, #000 0%, rgba(0, 0, 0, 0.33) 57.29%, rgba(0, 0, 0, 0) 80.73%),#717177;
   position:absolute;
   z-index:-1;
   left:54px;
