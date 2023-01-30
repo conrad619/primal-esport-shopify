@@ -2,7 +2,7 @@
 {{ 'custom-hero-banner.css' | asset_url | stylesheet_tag }}
 
 <div class="custom-hero-banner">
-  <div class="banner-bg" style="background-image:url({{ section.settings.bg_image }})"></div>
+  <div class="banner-bg" style="background-image:url({{ section.settings.bg_image | image_url }})"></div>
   <div class="banner-bg-overlay"></div>
   <div class="row">
     <div class="col first-column">
