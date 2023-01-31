@@ -1,0 +1,22 @@
+.custom-product-grid .card__information{
+  display: flex;
+  padding: 0;
+  margin-top: 10px;
+}
+.custom-product-grid .card__heading{
+  width: 66%;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+.custom-product-grid .card-information{
+  width: 34%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.custom-product-grid .price{
+  font-size: 15px;
+  font-family: "Oswald";
+  margin: 0;
+}
