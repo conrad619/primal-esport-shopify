@@ -1,3 +1,6 @@
+.custom-product-grid{
+  position:relative;
+}
 .custom-product-grid .card__information{
   display: flex;
   padding: 0;
@@ -25,4 +28,14 @@
 }
 .custom-product-grid .card-wrapper .card{
   border:1px solid #000;
+}
+.custom-product-grid .bg-top{
+  display:block;
+  position:absolute;
+  top:0;
+}
+.custom-product-grid .bg-bottom{
+  display:block;
+  position:absolute;
+  bottom:0;
 }
