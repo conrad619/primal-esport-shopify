@@ -20,3 +20,7 @@
   font-family: "Oswald";
   margin: 0;
 }
+.custom-product-grid .product-grid{
+  column-gap:30px;
+  row-gap:30px;
+}
