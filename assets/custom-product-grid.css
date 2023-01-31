@@ -36,6 +36,7 @@
   left:0;
   width:100%;
   background-repeat:no-repeat;
+  height:500px;
 }
 .custom-product-grid .bg-bottom{
   display:block;
@@ -44,4 +45,5 @@
   left:0;
   width:100%;
   background-repeat:no-repeat;
+  height:840px;
 }
