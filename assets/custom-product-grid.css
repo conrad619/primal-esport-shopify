@@ -30,20 +30,24 @@
   border:1px solid #000;
 }
 .custom-product-grid .bg-top{
-  display:block;
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  background-repeat:no-repeat;
-  height:500px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: contain;
+  background-position: top;
 }
 .custom-product-grid .bg-bottom{
-  display:block;
-  position:absolute;
-  bottom:0;
-  left:0;
-  width:100%;
-  background-repeat:no-repeat;
-  height:840px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: contain;
+  background-position: bottom;
 }
