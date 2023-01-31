@@ -1,5 +1,6 @@
 .custom-product-grid{
   position:relative;
+  background:#F5F5F5;
 }
 .custom-product-grid .card__information{
   display: flex;
