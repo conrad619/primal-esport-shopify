@@ -23,3 +23,6 @@
 .custom-product-grid .card-wrapper{
   padding:20px;
 }
+.custom-product-grid .card-wrapper .card{
+  border:1px solid #000;
+}
