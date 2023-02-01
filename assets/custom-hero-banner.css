@@ -41,7 +41,7 @@
 }
 .custom-hero-banner .product-title{
   font-size:80px;
-  line-height:55px;
+  line-height:80px;
   font-weight:700;
   color:#fff;
   font-family:"Oswald";
@@ -92,7 +92,7 @@
   height: 614px;
   bottom:0;
 }
-.custom-hero-banner .bg-box{
+/* .custom-hero-banner .bg-box{
   display:block;
   border-radius:20px;
   width:345px;
@@ -102,7 +102,7 @@
   z-index:-1;
   left:54px;
   top:95px;
-}
+} */
 .custom-hero-banner .img-container{
   position: absolute;
   bottom: 0;
