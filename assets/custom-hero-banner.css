@@ -110,7 +110,7 @@
 
 @media screen and (max-width: 750px) {
   .custom-hero-banner{
-    height:920px;
+    height:auto;
   }
   .custom-hero-banner .row{
     flex-direction: column;
@@ -128,6 +128,7 @@
   }
   .custom-hero-banner .product-img{
     height:500px;
+    position:static;
   }
 }
   
