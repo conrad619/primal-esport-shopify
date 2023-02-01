@@ -118,6 +118,9 @@
   .custom-hero-banner .col{
     width:100%;
   }
+  .custom-hero-banner .first-column{
+    padding-top:30px;
+  }
   .custom-hero-banner .product-title{
     font-size: 49px;
     line-height: 53px;
