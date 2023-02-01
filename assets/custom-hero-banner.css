@@ -107,3 +107,24 @@
   position: absolute;
   bottom: 0;
 }
+
+@media screen and (max-width: 750px) {
+  .custom-hero-banner .row{
+    flex-direction: column;
+  }
+  .custom-hero-banner .col{
+    width:100%;
+  }
+  .custom-hero-banner .product-title{
+    font-size: 49px;
+    line-height: 53px;
+  }
+  .custom-hero-banner .product-img-container{
+    display: flex;
+    justify-content: center;
+  }
+  .custom-hero-banner .product-img{
+    height:500px;
+  }
+}
+  
