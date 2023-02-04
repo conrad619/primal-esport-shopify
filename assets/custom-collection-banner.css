@@ -1,5 +1,7 @@
 .custom-collection-banner{
   height:405px;
+  width:100%;
+  position:relative;
 }
 .custom-collection-banner .banner-bg{
   background-repeat:no-repeat;
@@ -7,6 +9,12 @@
   background-size:contain;
   background:#F0F0EE;
   display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  
 }
 .custom-collection-banner .collection-title-container{
   display:flex;
