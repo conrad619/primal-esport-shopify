@@ -2,13 +2,13 @@
 {{ 'custom-collection-banner.css' | asset_url | stylesheet_tag }}
 
 <div class="custom-collection-banner">
-  <div class="banner-bg" style="background-image:url({{ section.settings.bg_image | image_url }})"></div>
+  <div class="banner-bg" style="background-image:url({{ collection.image | image_url }})"></div>
   <div class="page-width collection-title-container">
     <h1 class="collection-title">
-      {{ section.settings.heading }}
+      {{ collection.title }}
     </h1>
     <p class="collection-description">
-      {{ section.settings.description }}
+      {{ collection.description }}
     </p>
   </div>
 </div>
