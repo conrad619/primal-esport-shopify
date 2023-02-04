@@ -1,12 +1,47 @@
+
+{{ 'custom-collection-banner.css' | asset_url | stylesheet_tag }}
+
+<div class="custom-collection-banner">
+  <div class="banner-bg" style="background-image:url({{ section.settings.bg_image | image_url }})"></div>
+  <div class="row page-width">
+    <div class="col first-column">
+      <div class="collection-title-container">
+        <h1 class="collection-title">
+          {{ section.settings.heading }}
+        </h1>
+        <p class="collection-description">
+          {{ section.settings.description }}
+        </p>
+    </div>
+  </div>
+</div>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Custom Collection Banner",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "bg_image",
+        "label": "Background Image"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Collection Title"
+      },
+      {
+        "type": "textarea",
+        "id": "description",
+        "label": "Collectio Subtitle"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Custom Collection Banner"
+      }
+    ]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
