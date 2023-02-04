@@ -19,9 +19,13 @@
   display:flex;
   flex-direction:column;
   justify-content:center;
+  align-items:start;
   height:100%;
   position:relative;
   z-index:1;
+}
+.collection-title-wrap{
+  background:#F0F0EE99;
 }
 .custom-collection-banner .collection-title{
   font-size:48px;
