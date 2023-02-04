@@ -1,11 +1,12 @@
 .custom-collection-banner{
   height:405px;
 }
-.custom-collection .banner-bg{
+.custom-collection-banner .banner-bg{
   background-repeat:no-repeat;
   background-position: center bottom;
   background-size:contain;
   background:#F0F0EE;
+  display:block;
 }
 .custom-collection-banner .collection-title-container{
   display:flex;
