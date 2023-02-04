@@ -1,5 +1,12 @@
 {
   "sections": {
+    "9e910605-868b-43d3-80ae-3038a53e6eb6": {
+      "type": "custom-collection-banner",
+      "settings": {
+        "heading": "",
+        "description": ""
+      }
+    },
     "62d49086-4d51-41f0-a6a0-6b804c3c4f18": {
       "type": "custom-hero-banner",
       "settings": {
@@ -60,6 +67,7 @@
     }
   },
   "order": [
+    "9e910605-868b-43d3-80ae-3038a53e6eb6",
     "62d49086-4d51-41f0-a6a0-6b804c3c4f18",
     "banner",
     "product-grid",
