@@ -12,6 +12,7 @@
   flex-direction:column;
   justify-content:center;
   height:100%;
+  line-height:48px;
 }
 .custom-collection-banner .collection-title{
   font-size:48px;
