@@ -1,6 +1,6 @@
 {% if collection.handle != 'all' %}
 {{ 'custom-hero-banner.css' | asset_url | stylesheet_tag }}
-
+{{ collection.metafields.custom.hero_bg }}
 <div class="custom-hero-banner">
   <div class="banner-bg" style="background-image:url({% if collection.metafields.custom.hero_bg == true %}{{ collection.metafields.custom.hero_bg  | image_url }}{% else %}'https://cdn.shopify.com/s/files/1/0662/0571/2618/collections/image_3.png?v=1675469525'{% endif %})"></div>
   <div class="banner-bg-overlay"></div>
