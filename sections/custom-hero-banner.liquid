@@ -2,7 +2,7 @@
 {{ 'custom-hero-banner.css' | asset_url | stylesheet_tag }}
 
 <div class="custom-hero-banner">
-  <div class="banner-bg" style="background-image:url({{ collection.metafields.custom.hero_bg | default: 'https://cdn.shopify.com/s/files/1/0662/0571/2618/collections/image_3.png?v=1675469525' | image_url }})"></div>
+  <div class="banner-bg" style="background-image:url({% if collection.metafields.custom.hero_bg  %}{{ collection.metafields.custom.hero_bg  | image_url }}{% else %}'https://cdn.shopify.com/s/files/1/0662/0571/2618/collections/image_3.png?v=1675469525'{% endif %})"></div>
   <div class="banner-bg-overlay"></div>
   <div class="row page-width">
     <div class="col first-column">
