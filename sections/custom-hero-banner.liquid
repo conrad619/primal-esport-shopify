@@ -2,29 +2,29 @@
 {{ 'custom-hero-banner.css' | asset_url | stylesheet_tag }}
 
 <div class="custom-hero-banner">
-  <div class="banner-bg" style="background-image:url({{ section.settings.bg_image | image_url }})"></div>
+  <div class="banner-bg" style="background-image:url({{ collection.metafields.custom.hero_bg | image_url }})"></div>
   <div class="banner-bg-overlay"></div>
   <div class="row page-width">
     <div class="col first-column">
       <div class="product-title-container">
         <h2 class="product-title product-title-outline">
-          {{ section.settings.heading }}
+          {{ collection.metafields.custom.hero_product.title }}
         </h2>
         <h2 class="product-title">
-          {{ section.settings.heading }}
+          {{ collection.metafields.custom.hero_product.title }}
         </h2>
       </div>
       <p class="description">
-        {{ section.settings.description }}
+        {{ collection.metafields.custom.hero_description }}
       </p>
       <h3 class="price">
-        {{ section.settings.price }}
+        {{ collection.metafields.custom.hero_product.price }}
       </h3>
-      <a href="{{ section.settings.button_link }}" class="btn btn-a">{{ section.settings.button_text }}</a>
+      <a href="{{ collection.metafields.custom.hero_product.url }}" class="btn btn-a">{{ section.settings.button_text }}</a>
     </div>
     <div class="col second-column">
       <div class="product-img-container">
-        <img src="{{ section.settings.product_image | image_url }}" class="product-img"/>
+        <img src="{{ collection.metafields.custom.hero_image | image_url }}" class="product-img"/>
       </div>
     </div>
   </div>
