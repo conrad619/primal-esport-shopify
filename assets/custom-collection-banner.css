@@ -20,7 +20,6 @@
   flex-direction:column;
   justify-content:center;
   height:100%;
-  line-height:48px;
   position:relative;
   z-index:1;
 }
@@ -30,10 +29,14 @@
   font-family:"Oswald";
   margin-bottom:6px;
   margin-top:0;
+  line-height:48px;
 }
 .custom-collection-banner .collection-description{
   font-size:14px;
   font-weight:400;
   font-family:"Montserrat";
   margin:0;
+}
+@media screen and (max-width: 750px) {
+  
 }
