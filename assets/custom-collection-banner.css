@@ -38,5 +38,8 @@
   margin:0;
 }
 @media screen and (max-width: 750px) {
+  .custom-collection-banner .collection-title-container{
+    justify-content:start;
+  }
   
 }
