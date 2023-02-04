@@ -1,4 +1,4 @@
-
+{% if collection.handle != 'all' %}
 {{ 'custom-hero-banner.css' | asset_url | stylesheet_tag }}
 
 <div class="custom-hero-banner">
@@ -29,7 +29,7 @@
     </div>
   </div>
 </div>
-
+{% endif %}
 {% schema %}
   {
     "name": "Custom Hero Banner",
